@@ -1,3 +1,13 @@
 body{
     background-color: rgb(8, 0, 18);
+    color: white;
+}
+header{
+    background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
+}
+div{
+    block-size: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: gray;
 }
