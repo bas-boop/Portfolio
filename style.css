@@ -7,26 +7,13 @@ header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
     width: 75%;
 }
+.projects{
+    display: flex;
+}
 .game{
     margin: 10px;
     width: 100px;
     height: 100px;
     flex-direction: row;
     background-color: blueviolet;
-}
-#projects{
-    margin-left: auto;
-    margin-right: auto;
-}
-#one{
-    float: left;
-}
-#two{
-    float: left;
-}
-#three{
-    float: left;
-}
-#am{
-    float: none;
 }
