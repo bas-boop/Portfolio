@@ -1,13 +1,32 @@
 body{
     background-color: rgb(8, 0, 18);
     color: white;
+    font-family: monospace;
 }
 header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
+    width: 75%;
 }
-div{
-    block-size: 100px;
+.game{
+    margin: 10px;
     width: 100px;
-    text-align: center;
-    background-color: gray;
+    height: 100px;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+#projects{
+    margin-left: auto;
+    margin-right: auto;
+}
+#one{
+    float: left;
+}
+#two{
+    float: left;
+}
+#three{
+    float: left;
+}
+#am{
+    float: none;
 }
