@@ -8,11 +8,7 @@ header{
     width: 75%;
     margin: 0px;
 }
-a:before{
-    text-decoration: none;
-    color: white;
-}
-a:visited{
+a{
     text-decoration: none;
     color: white;
 }
