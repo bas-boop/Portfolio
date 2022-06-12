@@ -6,14 +6,25 @@ body{
 header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
     width: 75%;
+    margin: 0px;
+}
+a:before{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 .projects{
     display: flex;
+    margin-bottom: 50px;
 }
 .game{
     margin: 10px;
-    width: 100px;
+    width: 150px;
     height: 250px;
     flex-direction: row;
     background-color: blueviolet;
+    color: white;
 }
