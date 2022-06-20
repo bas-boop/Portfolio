@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     background-color: rgb(8, 0, 18);
     color: white;
     font-family: monospace;
@@ -7,12 +8,25 @@ header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
     width: 75%;
     margin: 0px;
+    padding-bottom: 1px;
 }
+footer{
+    background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(8, 0, 18));
+    width: 75%;
+    box-align: right;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-top: 1px;
+}
+
 a{
     text-decoration: none;
     color: white;
 }
 .projects{
+    margin-left: 5px;
     display: flex;
     margin-bottom: 50px;
 }
@@ -23,4 +37,7 @@ a{
     flex-direction: row;
     background-color: blueviolet;
     color: white;
+}
+.am{
+    margin-left: 10px;
 }
