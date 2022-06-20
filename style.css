@@ -3,10 +3,12 @@ body{
     background-color: rgb(8, 0, 18);
     color: white;
     font-family: monospace;
+    padding-bottom: 35px;
 }
 header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
     width: 75%;
+    height: 35px;
     margin: 0px;
     margin-top: 0;
     padding-bottom: 1px;
@@ -15,6 +17,7 @@ header{
 footer{
     background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(8, 0, 18));
     width: 75%;
+    height: 60px;
     box-align: right;
     text-align: right;
     position: fixed;
@@ -31,6 +34,7 @@ a{
 .projects{
     margin-left: 5px;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 50px;
 }
 .game{
@@ -43,4 +47,5 @@ a{
 }
 .am{
     text-align: center;
+    margin-bottom: 70px;
 }
