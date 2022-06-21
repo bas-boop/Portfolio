@@ -44,6 +44,12 @@ a{
     background-color: blueviolet;
     color: white;
 }
+
+.discription{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
 .am{
     text-align: center;
     margin-bottom: 70px;
