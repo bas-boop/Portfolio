@@ -7,7 +7,7 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
-    width: 75%;
+    width: 85%;
     height: 35px;
     margin: 0px;
     margin-top: 0;
@@ -16,7 +16,7 @@ header{
 }
 footer{
     background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(8, 0, 18));
-    width: 75%;
+    width: 85%;
     height: 60px;
     box-align: right;
     text-align: right;
@@ -38,8 +38,8 @@ a{
 }
 .game{
     margin: 10px;
-    width: 150px;
-    height: 250px;
+    width: 250px;
+    height: 350px;
     flex-direction: row;
     background-color: blueviolet;
     color: white;
