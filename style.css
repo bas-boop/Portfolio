@@ -1,12 +1,13 @@
 body{
     margin: 0;
-    background-color: rgb(8, 0, 18);
+    background-color: rgb(16, 0, 35);
     color: white;
     font-family: monospace;
     padding-bottom: 35px;
 }
 header{
-    background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(8, 0, 18));
+    
+    background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(16, 0, 35));
     width: 85%;
     height: 35px;
     margin: 0px;
@@ -15,7 +16,7 @@ header{
     padding-left: 5px;
 }
 footer{
-    background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(8, 0, 18));
+    background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(16, 0, 35));
     width: 85%;
     height: 60px;
     box-align: right;
