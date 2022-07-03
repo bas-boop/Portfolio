@@ -28,7 +28,6 @@ footer{
     padding-right: 5px;
 }
 a{
-    text-decoration: none;
     color: white;
 }
 h1{
@@ -52,6 +51,7 @@ h1{
 }
 
 .discription{
+    text-align: center;
     margin-top: 20px;
     margin-left: 10px;
 }
