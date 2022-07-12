@@ -48,6 +48,7 @@ h1{
     flex-direction: row;
     background-color: blueviolet;
     color: white;
+    font-size: 16px;
 }
 
 .description{
