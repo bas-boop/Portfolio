@@ -16,7 +16,7 @@ header{
     padding-left: 5px;
 }
 footer{
-    background-image: linear-gradient(to top left, rgb(8, 64, 0), rgb(16, 0, 35));
+    background-image: linear-gradient(to top left, rgb(8, 64, 0), rgba(16, 0, 35,0));
     width: 85%;
     height: 40px;
     box-align: right;
