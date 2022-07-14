@@ -1,12 +1,13 @@
 /*Standaard dingen*/
-body{
+body {
     margin: 0;
     background-color: rgb(16, 0, 35);
     color: white;
     font-family: monospace;
     padding-bottom: 35px;
 }
-header{
+
+header {
     background-image: linear-gradient(to bottom right, rgb(8, 64, 0), rgb(16, 0, 35));
     width: 85%;
     height: 35px;
@@ -15,7 +16,8 @@ header{
     padding-bottom: 1px;
     padding-left: 5px;
 }
-footer{
+
+footer {
     background-image: linear-gradient(to top left, rgb(8, 64, 0), rgba(16, 0, 35,0));
     width: 85%;
     height: 40px;
@@ -27,21 +29,24 @@ footer{
     padding-top: 1px;
     padding-right: 5px;
 }
-a{
+
+a {
     color: white;
 }
-h1{
+
+h1 {
     margin: 0;
 }
 
 /*Classes*/
-.projects{
+.projects {
     margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
-.game{
+
+.game {
     margin: 10px;
     width: 250px;
     height: 350px;
@@ -50,19 +55,26 @@ h1{
     color: white;
     font-size: 16px;
 }
-
-.game:hover{
+.game:hover {
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
 }
+.game:hover img {
+    filter: brightness(50%);
+}
+.game a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
 
-.description{
+.description {
     text-align: center;
     margin-top: 20px;
     margin-left: 10px;
 }
 
 /*ID*/
-#am{
+#am {
     text-align: center;
     margin-bottom: 70px;
 }
