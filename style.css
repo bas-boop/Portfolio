@@ -51,6 +51,10 @@ h1{
     font-size: 16px;
 }
 
+.game:hover{
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+}
+
 .description{
     text-align: center;
     margin-top: 20px;
