@@ -86,3 +86,21 @@ h1 {
     margin-top: 30px;
     text-align: center;
 }*/
+
+.skillBar {
+    width: 100%;
+    background-color: grey;
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+  
+  .Unity {width: 69%; background-color:#8331e1;}
+  .Csharp {width: 43%; background-color: #21f33a;}
+  .Godot {width: 14%; background-color:#3172e1;}
+  .GDscript {width: 11%; background-color: #4ea3f9;}
+  .HTMLCSS {width: 21%; background-color: #f63c3c;}
