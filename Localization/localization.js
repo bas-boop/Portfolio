@@ -3,6 +3,7 @@ const locales = ['en', 'nl'];
 // VERANDER DIT NIET DIRECT!
 const target = {locale: null};
 let doneFetching = false;
+let localeFile = null;
 
 const proxy = new Proxy(target, {
     set(target, prop, value) {
@@ -23,26 +24,18 @@ function updatePage() {
         let localizedText = localeFile[proxy.locale][element.id]
         element.innerHTML = (localizedText !== undefined) ? localizedText : `Missing translation for ${element.id} for '${proxy.locale}' locale.`;
     });
+
+    // TODO: button updaten!
 }
 
-async function getTranslationFile(filePath) {
-    const response = await fetch(filePath);
-
-    if(response.ok) {  
-        let json = await response.json();
-        return Promise.resolve(json);
-    }
-        
-    else return Promise.reject("Localization file not found!");
-}
-
-let localeFile = null;
-getTranslationFile(filePath)
-    .then(response => {
-        localeFile = response;
+// json fetchen :)
+fetch(filePath).then(value => {
+    value.json().then(value => {
+        localeFile = value;
         doneFetching = true;
         updatePage();
-    }).catch(console.error);
+    });
+});
 
 // Eerst pakken we de talen die de user heeft ingesteld.
 const userLanguages = navigator.languages.map(language => language.split('-')[0]);
@@ -54,10 +47,12 @@ for(let language of userLanguages) {
     break;
 }
 
-// Als locale nogsteeds null is dan defaulten we naar engels.
-if(proxy.locale === null) proxy.locale = 'en';
-
 // Als er een url parameter is voor language kunnen we die gebruiken.
 const param = new URLSearchParams(window.location.search).get('lang');
 
 if(param != null) proxy.locale = param;
+
+// Als locale nogsteeds null is dan defaulten we naar engels.
+if(proxy.locale === null) proxy.locale = 'en';
+
+// TODO: button handler.
