@@ -12,7 +12,7 @@
     </header>
 
     <div style="margin-top: 20px;">
-        <h2 style="margin-left: 10px;">Huidige projecten!</h2>
+        <h2 class="locale-target" id="current-projects" style="margin-left: 10px;">Huidige projecten!</h2>
         <div class="projects">
             <div class="game"><a href="AAR.html"><img src="Img/Portifolio game tumbnail-AAR.png"></a></div>
             <div class="game"><a href="OperationStarfall.html"><img src="Img/Portifolio game tumbnail-OS.png"></a></div>
@@ -20,7 +20,7 @@
     </div>
     
     <div style="margin-top: 20px;">
-        <h2 style="margin-left: 10px;">De 3 projecten/games waar ik het meest trots op ben.</h2><!--misshien TODO: Een ordering lijst-->
+        <h2 style="margin-left: 10px;" class="locale-target" id="proud-projects">De 3 projecten/games waar ik het meest trots op ben.</h2><!--misshien TODO: Een ordering lijst-->
         <div class="projects">
             <div class="game"><a href="Adley'sAdevture.html"><img src="Img/Portifolio game tumbnail-AA.png"></a></div>
             <div class="game"><a href="Mecco.html"><img src="Img/Portifolio game tumbnail-MTC.png"></a></div>
@@ -32,4 +32,8 @@
     <footer>
         <h1><span style="font-size: 12px;">Unity game developer:</span> Bas de Reus</h1>
     </footer>
+
+    <!-- Localization -->
+    <script>const filePath = 'Localization/index.json';</script>
+    <script src="Localization/localization.js"></script>
 </body>
