@@ -1,3 +1,4 @@
+const langButton = document.getElementById('language-button');
 const locales = ['en', 'nl'];
 
 // VERANDER DIT NIET DIRECT!
@@ -11,6 +12,8 @@ const proxy = new Proxy(target, {
         if(!locales.includes(value.toLowerCase())) return false;
 
         target[prop] = value.toLowerCase();
+
+        langButton.innerText = value.toLowerCase();
 
         // Als we de language file nog niet hebben gefetched kunnen we de pagina nog niet updaten en wordt het door de loader gedaan.
         if(!doneFetching) return true;
@@ -56,3 +59,10 @@ if(param != null) proxy.locale = param;
 if(proxy.locale === null) proxy.locale = 'en';
 
 // TODO: button handler.
+
+langButton.addEventListener('click', () => {
+    let index = locales.findIndex(locale => locale == langButton.innerText) + 1;
+    if(index == locales.length) index = 0;
+    
+    proxy.locale = locales[index];
+});
