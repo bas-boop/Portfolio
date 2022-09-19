@@ -1,13 +1,13 @@
 {
     "nl": {
         "paragraph-1": "Vormen Vs Formen is mijn tower defence, gemaakt in Unity. Heb daarom aan veel verschillende dingen gewerkt. Heb daarom ook veel verschillende dingen gemaakt.<br>Heb gewerkt aan een Tile systeem, placing van towers op de tiles, schietende towers, money syteem, een shop, enemies die werken met een wave spawner, upgraden en selling van towers met world UI.",
-        "paragraph-2": "Wat ik zelf het trots op ben is dat er een element type systeem is. Bijvoorbeeld een fire enemy, die krijgt minder damage van een fire tower.<br>De fire en poison tower hebben ook een ability, wou dat alle 4 de towers dat hadden maar is niet gelukt.<br>De fire tower doet AOE damge (area of effect). De poison tower heeft een overtime damage, dus eerst damage van de bullet en daarna tikt het langzaam af.",
+        "paragraph-2": "Wat ik zelf het trots op ben is dat er een element type systeem is. Bijvoorbeeld een fire enemy, die krijgt minder damage van een fire tower.<br>De fire en poison tower hebben ook een ability, wou dat alle 4 de towers dat hadden maar is niet gelukt.<br>De fire tower doet AOE damage (area of effect). De poison tower heeft een overtime damage, dus eerst damage van de bullet en daarna tikt het langzaam af.",
         "paragraph-3": "Ik heb later een lijst gemaakt van de dingen die ik er nog graag in wou hebben, naast de core mechanics.<br>Deze lijst had ik later verkleind, want ik heb sommige dingen al gemaakt, waaronder een main menu, pause screen, verschillende levels. Wat nog mist van de lijst is sound."
     },
 
     "en": {
         "paragraph-1": "Vormen Vs Formen is my tower defence, made in Unity. This was a project I made on my own. So I've been working on a lot of different things.<br>Worked on a Tile system, placing towers on the tiles, shooting towers, money system, a shop, enemies working with a wave spawner, upgrading and selling towers with world UI.",
-        "paragraph-2": "What I am proud of myself is that there is an element type system. For example, a fire enemy, who gets less damage from a fire tower.<br>The fire and poison tower also have an ability, wish all 4 towers had that but it didn't work.<br>The fire tower does AOE damge (area of ​​effect). The poison tower has an overtime damage, so first damage from the bullet and then it slowly taps off.",
+        "paragraph-2": "What I am proud of myself is that there is an element type system. For example, a fire enemy, who gets less damage from a fire tower.<br>The fire and poison tower also have an ability, wish all 4 towers had that but it didn't work.<br>The fire tower does AOE damage (area of ​​effect). The poison tower has an overtime damage, so first damage from the bullet and then it slowly taps off.",
         "paragraph-3": "I later made a list of the things I still wanted in it, besides the core mechanics.<br>I narrowed this list down later, because I've already made some things, including a main menu, pause screen, different levels. What's still missing from the list is sound."
     }
 }
