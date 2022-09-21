@@ -6,13 +6,14 @@
 <body>
     <header>
         <h1><a href="index.html">Portfolio</a>: Cuphead-slice</h1>
+        <button id="language-button" style="margin-left: 95%;margin-top: -100px;">nl</button>
     </header>
     
     <div class="description"><!--TODO: Maak dit beter-->
         <h2>Description</h2>
-        <p>Dit is een verticale-slice van Cuphead, alleen de carrot bossfight. Want dat is de core gameplay. De bedoeling is dat je 10/15 seconden van het orgineel na maakt.</p>
-        <p>Ik heb zelf gewerkt aan de player movement, had dat nog niet gemaakt in een project.<br>De meeste uitdaging kwam wel met het dashen. Wat ook moeilijk was, is dat het net zo aan moest voelen als het origineel.<br>Het ging alleen mis met de animaties implementeren, was ook de eerste keer werken met de animator in Unity. </p>
-        <p>Jammer genoeg is dit project niet af gekomen.</p>
+        <p class="locale-target" id="paragraph-1">Dit is een verticale-slice van Cuphead, alleen de carrot bossfight. Want dat is de core gameplay. De bedoeling is dat je 10/15 seconden van het orgineel na maakt.</p>
+        <p class="locale-target" id="paragraph-2">Ik heb zelf gewerkt aan de player movement, had dat nog niet gemaakt in een project.<br>De meeste uitdaging kwam wel met het dashen. Wat ook moeilijk was, is dat het net zo aan moest voelen als het origineel.<br>Het ging alleen mis met de animaties implementeren, was ook de eerste keer werken met de animator in Unity. </p>
+        <p class="locale-target" id="paragraph-3">Jammer genoeg is dit project niet af gekomen.</p>
     </div>
 
     <div style="margin-left: 35%;">
@@ -23,4 +24,8 @@
     <footer>
         <h1><span style="font-size: 12px;">Unity game developer:</span> Bas de Reus</h1>
     </footer>
+    
+    <!-- Localization -->
+    <script>const filePath = 'Localization/Cuphead-slice.json';</script>
+    <script src="Localization/localization.js"></script>
 </body>

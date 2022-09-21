@@ -1,0 +1,13 @@
+{
+    "nl": {
+        "paragraph-1":"Dit is een verticale-slice van Cuphead, alleen de carrot bossfight. Want dat is de core gameplay. De bedoeling is dat je 10/15 seconden van het orgineel na maakt.",
+        "paragraph-2":"Ik heb zelf gewerkt aan de player movement, had dat nog niet gemaakt in een project.<br>De meeste uitdaging kwam wel met het dashen. Wat ook moeilijk was, is dat het net zo aan moest voelen als het origineel.<br>Het ging alleen mis met de animaties implementeren, was ook de eerste keer werken met de animator in Unity.",
+        "paragraph-3":"Jammer genoeg is dit project niet af gekomen."
+    },
+
+    "en": {
+        "paragraph-1":"This is a vertical slice of Cuphead, just the carrot boss fight. Because that's the core gameplay. The idea is that you copy 10/15 seconds of the original.",
+        "paragraph-2":"I've worked on the player movement myself, hadn't made that in a project yet.<br>The biggest challenge came with the dash. What was also difficult is that it had to feel just like the original.<br>It only went wrong implementing the animations, was also the first time working with the animator in Unity.",
+        "paragraph-3":"Unfortunately, this project has not been completed."
+    }
+}
