@@ -22,10 +22,10 @@ header {
     gap: 20px;
 }
 
-header a, p {
+header a, header p{
+    font-family: monospace;
     text-decoration: none;
     font-size: 20px;
-
 }
 
 header button {
