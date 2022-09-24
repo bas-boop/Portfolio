@@ -21,16 +21,31 @@ header {
     align-items: center;
     gap: 20px;
 }
+@media screen and (max-width: 500px) {
+    header{
+        height: 70px;
+        width: 95%;
+    }
+    header a, header p{
+        font-size: 40px;
+    }
+}
 
 header a, header p{
     font-family: monospace;
-    text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 header button {
     margin-left: auto;
     margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(138, 43, 226);
+    color: cyan;
+    outline-color: #21f33a;
+    outline-style: solid;
 }
 
 footer {
@@ -48,6 +63,7 @@ footer {
 
 a {
     color: white;
+    font-family: monospace;
 }
 
 h1 {

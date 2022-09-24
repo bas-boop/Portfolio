@@ -1,5 +1,5 @@
 const langButton = document.getElementById('language-button');
-const locales = ['en', 'nl'];
+const locales = ['NL', 'EN'];
 
 // VERANDER DIT NIET DIRECT!
 const target = {locale: null};
@@ -9,11 +9,11 @@ let localeFile = null;
 const proxy = new Proxy(target, {
     set(target, prop, value) {
         if(typeof value !== 'string') return false;
-        if(!locales.includes(value.toLowerCase())) return false;
+        if(!locales.includes(value.toUpperCase())) return false;
 
-        target[prop] = value.toLowerCase();
+        target[prop] = value.toUpperCase();
 
-        langButton.innerText = value.toLowerCase();
+        langButton.innerText = value.toUpperCase();
 
         // Als we de language file nog niet hebben gefetched kunnen we de pagina nog niet updaten en wordt het door de loader gedaan.
         if(!doneFetching) return true;
@@ -56,7 +56,7 @@ const param = new URLSearchParams(window.location.search).get('lang');
 if(param != null) proxy.locale = param;
 
 // Als locale nogsteeds null is dan defaulten we naar engels.
-if(proxy.locale === null) proxy.locale = 'en';
+if(proxy.locale === null) proxy.locale = 'EN';
 
 // TODO: button handler.
 

@@ -1,12 +1,12 @@
 {
-    "nl": {
+    "NL": {
         "paragraph-1": "Ik ben Bas de Reus, 18 jaar oud. Ik ben een Nederlandse all-round Unity game developer, ben nog op zoek naar wat ik presiec wil gaan doen.<br>Ik doe nu een software develepment opleiding gericht naar game development.<br>",
         "paragraph-2": "Ik wil graag nog een <a href=\"Cooking.html\"style=\"color: aqua;\">Cooking game</a> maken. Want dat lijkt mij leuk om te maken.",
         "paragraph-3": "Hier is mijn <a href=\"CV.pdf\" style=\"color: aqua;\">CV</a>. Wil je mijn <a href=\"https://github.com/bas-boop\" style=\"color: aqua;\">github</a> zien?<br>Je kan mij bereiken via mijn email: <span style=\"color: yellow;\">dereusbas461@gmail.com</span>!<br>Wil je mij bereiken via discord, dan is dit mijn tag <span style=\"color: yellow;\">baz_geluk9#9978</span>!",
         "skills-title": "Mijn Skills (kan nog veranderd worden)"
     },
 
-    "en": {
+    "EN": {
         "paragraph-1": "I'm Bas de Reus, 18 years old. I'm a Dutch all-round Unity game developer, I'm still looking for what I want to specialise in.<br>At this moment I'm doing a software development course focusing on game development.<br>",
         "paragraph-2": "I still want to make a <a href=\"Cooking.html\"style=\"color: aqua;\">Cooking game</a>. Since that seems really fun to me.",
         "paragraph-3": "Here is my <a href=\"CV.pdf\" style=\"color: aqua;\">CV</a>. Would you like to check out my <a href=\"https://github.com/bas-boop\" style=\"color: aqua;\">github</a>?<br>You can reach me using this email: <span style=\"color: yellow;\">dereusbas461@gmail.com</span>!<br>If you'd like to reach my via discord, here's my tag <span style=\"color: yellow;\">baz_geluk9#9978</span>!",
