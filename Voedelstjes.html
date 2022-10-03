@@ -6,17 +6,18 @@
 <body>
     <header>
         <h1><a href="index.html">Portfolio</a>: Voedelstjes</h1>
+        <button id="language-button">NL</button>
     </header>
 
     <div class="description">
         <h2>Description</h2>
-        <p>Voedelstjes is een kleine game die ik heb gemaakt voor een gamejam. Waarmee ik in totaal 36 uur mee bezig ben geweest, in een tijd van een week.</p>
-        <p>Je speelt als een aardbei of kiwi en verzamelt voorwerpen om het ander stuk fruit in jam te veranderen.<br>Je zoekt 5 voorwerpen om te winnen terwijl je bestek aan het vermijden bent, anders ga je dood.<br>Als je niet snel genoeg bent, dan maakt de andere stuk fruit jou naar jam, je moet snel jammen.</p>
-        <p>Wat ik technisch nieuw heb geleerd, zijn Json files. Dit heb ik gebruikt om de player keuze op te slaan.<br>Dit kan ik later toepassen op andere projecten.</p>
-        <p>Ik focusete mij op het snel maken van een speelbare game.<br>Heb ook voor het eerst sound effects toegevoegd aan een game. Als laatste, heb ik ook zelf pixel art gemaakt.</p>
+        <p class="locale-target" id="paragraph-1">Voedelstjes is een kleine game die ik heb gemaakt voor een gamejam. Waarmee ik in totaal 36 uur mee bezig ben geweest, in een tijd van een week.</p>
+        <p class="locale-target" id="paragraph-2">Je speelt als een aardbei of kiwi en verzamelt voorwerpen om het ander stuk fruit in jam te veranderen.<br>Je zoekt 5 voorwerpen om te winnen terwijl je bestek aan het vermijden bent, anders ga je dood.<br>Als je niet snel genoeg bent, dan maakt de andere stuk fruit jou naar jam, je moet snel jammen.</p>
+        <p class="locale-target" id="paragraph-3">Wat ik technisch nieuw heb geleerd, zijn Json files. Dit heb ik gebruikt om de player keuze op te slaan.<br>Dit kan ik later toepassen op andere projecten.</p>
+        <p class="locale-target" id="paragraph-4">Ik focusete mij op het snel maken van een speelbare game.<br>Heb ook voor het eerst sound effects toegevoegd aan een game. Als laatste, heb ik ook zelf pixel art gemaakt.</p>
     </div>
 
-    <a href="https://gamejolt.com/games/Voedelstjes/715274" style="margin-left: 10px; color:aqua;text-align: center;"><p>Klik hier om naar de playable game te gaan!</p></a>
+    <a href="https://gamejolt.com/games/Voedelstjes/715274" style="margin-left: 10px; color:aqua;text-align: center;"><p class="locale-target" id="game">Klik hier om naar de playable game te gaan!</p></a>
 
     <div style="margin-left: 35%;">
         <video width="640" height="360" controls style="margin: 15px;margin-left: 0px;">
@@ -28,4 +29,8 @@
     <footer>
         <h1><span style="font-size: 12px;">Gameplay Programmer:</span> Bas de Reus</h1>
     </footer>
+        
+    <!-- Localization -->
+    <script>const filePath = 'Localization/Voedelstjes.json';</script>
+    <script src="Localization/localization.js"></script>
 </body>
