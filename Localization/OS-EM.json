@@ -1,0 +1,21 @@
+{
+    "NL": {
+        "Description": "Dit is een groot project waarin ik een developer ben. Het is een onderdeel van het HLO (hybride leer omgeving).<br>Dit houdt in dat voornamelijk studeten er aan werken, naast 2 docenten/product owners.<br>Elke 10 weken wordt er een nieuwe selectie aan studenten gekozen, je kan meerdere keren gekozen worden.<br>De game is een 2.5D Metroidvania Couch Co-op gebaseerd op de cartoons van 80's Sci-Fi. Het is een game dat gaat om momentum.<br>Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Dat vergelijkbaar is met Rigidbody wat in Unity zit, maar dan beter naar mijn mening.",
+        "Contribution-Title": "Wat ik er aan heb bij gedragen in de eerste 10 weken:",
+        "Dropping": "Optimaliseren van het loslaten van de ledge wanneer je er aan hangt.<br>Je kon er namelijk alleen boven op komen, dus we hebben het gemaakt dat je het gewoon kan loslaten, waardoor je naar beneden valt.<br>Dit geeft meer opties en logica aan het spel.",
+        "Falling": "Als je van een hoogte zal komen naar de grond, dan zou je momentum houden wanneer je land op de grond.<br>Hierdoor sta je niet ineens stil op de grond wanneer je heel snel ging.<br>Dit hebben we gedaan via de forces van de Force System.",
+        "Deceleration": "Heb ook gewerkt aan de Deceleration van de speler.<br>Dus als je aan het lopen bent en stopt met input geven, dan doe je nog een paar kleine stappen totdat je echt stil staat.<br>Hierdoor sta je niet gelijk stil alsof je een muur raakt.",
+        "Scrum": "Wat ik ook heb gedaan is voor 1 sprint scrum master zijn, voor 2 weken.<br>Dus de daylie stand-ups en -downs organiseren en door de dag heen bij iedereen checken of het lukt met wat ze maken.<br>Ook kijk ik of iedereen wel de todo’s op Trello goed hebben staan.",
+        "Conclusion": "Wat ik vooral geleerd heb is in een groot team werken en een betere programmeur worden.<br>Want we verdiepen in game development wat ik niet zou bereiken met een simpel 8 weken school project."
+    },
+
+    "EN": {
+        "Description": "a",
+        "Contribution-Title": "b",
+        "Dropping": "c",
+        "Falling": "d",
+        "Deceleration": "e",
+        "Scrum": "f",
+        "Conclusion": "g"
+    }
+}
