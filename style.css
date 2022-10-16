@@ -105,6 +105,17 @@ h1 {
     margin-left: 10px;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warp{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
 /*ID*/
 #am {
     text-align: center;
