@@ -1,7 +1,7 @@
 {
     "NL": {
         "Description": "Dit is een groot project waarin ik een developer ben. Het is een onderdeel van het HLO (hybride leer omgeving).<br>Dit houdt in dat voornamelijk studeten er aan werken, naast 2 docenten/product owners.<br>Elke 10 weken wordt er een nieuwe selectie aan studenten gekozen, je kan meerdere keren gekozen worden.<br>De game is een 2.5D Metroidvania Couch Co-op gebaseerd op de cartoons van 80's Sci-Fi. Het is een game dat gaat om momentum.<br>Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Dat vergelijkbaar is met Rigidbody wat in Unity zit, maar dan beter naar mijn mening.",
-        "Andere OS": "Heb aan hetzelfde project ook gewerkt toen werkte ik vooral aan <span><a href=\"OperationStarfall-FSE.html\" style=\"color:aqua;\">Force System Extation</a></span>",
+        "Andere OS": "Heb aan hetzelfde project ook gewerkt toen werkte ik vooral aan <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>",
         "Contribution-Title": "Wat ik er aan heb bijgedragen in de eerste 10 weken:",
         "Dropping": "Optimaliseren van het loslaten van de ledge wanneer je er aan hangt.<br>Je kon er namelijk alleen boven op komen, dus we hebben het gemaakt dat je het gewoon kan loslaten, waardoor je naar beneden valt.<br>Dit geeft meer opties en logica aan het spel.",
         "Falling": "Als je van een hoogte zal komen naar de grond, dan zou je momentum houden wanneer je land op de grond.<br>Hierdoor sta je niet ineens stil op de grond wanneer je heel snel ging.<br>Dit hebben we gedaan via de forces van de Force System.",
@@ -12,7 +12,7 @@
 
     "EN": {
         "Description": "This is a major project which I worked on as a developer. It is the main product of a HLO (Hybrid Learning Environment) that I was a part of.<br>This means that the project was spearheaded by two teachers/product owners, and worked on by primarily students.<br>The pool of students fluctuates every 10 weeks, however you may choose to stay for another 10.<br>The product we're working on is a 2.5D couch co-op metroidvania with an aesthetic reminiscent of 80's era cartoons.<br>The main basis of the game going into it was ''Momentum''. This is reinforced in the engine we work in, Unity. Where we've made a whole physics system from the ground up.<br>That is similar to Rigidbody which is in Unity, but better in my opinion.",
-        "Andere OS": "I also worked on the same project then I mainly worked on  <span><a href=\"OperationStarfall-FSE.html\" style=\"color:aqua;\">Force System Extation</a></span>",
+        "Andere OS": "I also worked on the same project then I mainly worked on  <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>",
         "Contribution-Title": "What I contributed in the first 10 weeks:",
         "Dropping": "Optimizing the release of the ledge when hanging from it.<br>You could only get on top of it, so we made it so that you can just let it go, causing you to fall down.<br>This gives more options and logic to the game.",
         "Falling": "If you are going to come down from a height to the ground, you would maintain momentum when you land on the ground.<br>This means you don't suddenly stand still on the ground when you go very fast.<br>We did this through the forces of the Force System.",
