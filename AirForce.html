@@ -8,20 +8,24 @@
     <header>
         <h1><a href="https://www.bas-de-reus.nl/index.html">Portfolio</a>: AirForce</h1>
         <h1 style="margin-left: 150px;"><a href="AboutMe.html">About me</a></h1>
+        <button id="language-button">NL</button>
     </header>
 
     <div class="description">
         <h2>Description</h2>
-        <p>Geïnspireerd geraakt door arcade-games uit de jaren 80, maar ook een moderne draai willen geven, heeft geleid tot de start van dit project.<br>Met deze klassieke shooter kun je een vliegtuig besturen dat je kunt upgraden en evolueren als je het genoeg geld en upgrades hebt verzameld.<br>Er komen tijdens het vliege ook veijandelijke vliegtuigen dus die moet je bevechten.</p>
-        <!--<p>Being inspired by '80s arcade games, but also wanting to add a modern twist, has led to the start of this project.<br>This classic shooter lets you fly a plane that you can then upgrade and evolve if you have gathered the necessary money and upgrades.<br>While flying you encounter enemies that you have to fight.</p>-->
-        <p>De game is wel nog in development. Later komt er meer informatie.</p>
+        <p class="locale-target" id="info">Geïnspireerd geraakt door arcade-games uit de jaren 80, maar ook een moderne draai willen geven, heeft geleid tot de start van dit project.<br>Met deze klassieke shooter kun je een vliegtuig besturen dat je kunt upgraden en evolueren als je het genoeg geld en upgrades hebt verzameld.<br>Er komen tijdens het vliege ook veijandelijke vliegtuigen dus die moet je bevechten.</p>
+        <p class="locale-target" id="dev">De game is wel nog in development. Later komt er meer informatie.</p>
         <a href="https://github.com/pkuipers1/Airforce" style="color:aqua;" target="_blank">Github!</a>
     </div>
 
     <h3 style="text-align: center;" class="locale-target" id="Contribution-Title">Wat ik er tot nu toe aan heb bijgedragen:</h3>
-    <p style="text-align: center;" class="locale-target" id="Playermovement">Zoals ik had verwacht voor de zoveelste keer gewerkt aan de player movement.<br>Heb dit samen met de nieuwe Unity input system gedaan.<br>Wat hier ook bij hoort is de rotaties van het vliegtuig.<br>Bijvoorbeeld als je naar links toe gaat dan draait het vliegtuig ook naar links.</p>
+    <p style="text-align: center;" class="locale-target" id="Move">Zoals ik had verwacht voor de zoveelste keer gewerkt aan de player movement.<br>Heb dit samen met de nieuwe Unity input system gedaan.<br>Wat hier ook bij hoort is de rotaties van het vliegtuig.<br>Bijvoorbeeld als je naar links toe gaat dan draait het vliegtuig ook naar links.</p>
 
     <footer>
         <h1><span style="font-size: 12px;">Gameplay Programmer:</span> Bas de Reus</h1>
     </footer>
+
+    <!-- Localization -->
+    <script>const filePath = 'Localization/Airforce.json';</script>
+    <script src="Localization/localization.js"></script>
 </body>
