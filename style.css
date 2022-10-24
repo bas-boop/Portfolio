@@ -72,7 +72,7 @@ h1 {
 
 /*Classes*/
 .projects {
-    margin-left: 5px;
+    margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
 }
