@@ -1,6 +1,5 @@
 {
     "NL": {
-        "Contribution-Title": "Wat ik er aan heb bij aan de game:",
         "Description": "Dit was mijn eerste serieuze game, waar we met ze drieën aan hebben gewerkt. Dit was ook de eerste keer werken in Unity met C#.<br>Ik heb hier een goede basic geleerd van game development, want heb een paar mechanics gemaakt.<br>Ook heb ik een beetje game design gedaan en het uit werken ervan.<br><a href=\"AAR.html\" style=\"color: aqua;\">We gaan dit nog een keer opnieuw maken,</a> maar dan met meer kennis.",
         "Warning": "(De beelden die je hieronder ziet kunnen afwijken van het eind product. Er waren veel problemen met de github, er is niet echt een final version.)",
         "Play": "Klik hier om naar de playable game te gaan!<br>",
@@ -11,7 +10,6 @@
     },
 
     "EN": {
-        "Contribution-Title": "What I contributed in the first 10 weeks:",
         "Description": "This was my first serious game, which the three of us worked on. This was also the first time working in Unity with C#.<br>I learned a good basic of game development here, because I made a few mechanics.<br>I also did a bit of game design and working it out.<br><a href=\"AAR.html\" style=\"color: aqua;\">We're going to recreate this one more time,</a> but with more knowledge.",
         "Warning": "(The images you see below may differ from the final product. There were many problems with the github, there is not really a final version.)",
         "Play": "Click here to go to the playable game!<br>",

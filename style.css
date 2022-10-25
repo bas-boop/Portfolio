@@ -4,7 +4,6 @@ body {
     background-color: rgb(16, 0, 35);
     color: white;
     font-family: monospace;
-    padding-bottom: 35px;
 }
 
 header {
@@ -76,7 +75,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
-
+hr.line {
+    border-top: 3px solid yellow;
+    margin: 10px;
+}
 .game {
     margin: 10px;
     width: 250px;
