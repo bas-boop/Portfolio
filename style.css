@@ -88,11 +88,18 @@ hr.line {
     color: white;
     font-size: 16px;
 }
+img{
+    transition: transform .175s;
+}
+img:hover{
+    transform: scale(1.25);
+}
 .game:hover {
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
 }
 .game:hover img {
     filter: brightness(50%);
+    transform: scale(1);
 }
 .game a {
     width: 100%;
