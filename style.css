@@ -68,6 +68,9 @@ a {
 h1 {
     margin: 0;
 }
+footer{
+    z-index: 10;
+}
 
 /*Classes*/
 .projects {
@@ -90,6 +93,7 @@ hr.line {
 }
 img{
     transition: transform .175s;
+    z-index: 1;
 }
 img:hover{
     transform: scale(1.25);
@@ -117,6 +121,7 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .warp{
