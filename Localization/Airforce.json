@@ -1,12 +1,12 @@
 {
-    "NL": {
+    "EN": {
         "info": "Geïnspireerd geraakt door arcade-games uit de jaren 80, maar ook een moderne draai willen geven, heeft geleid tot de start van dit project.<br>Met deze klassieke shooter kun je een vliegtuig besturen dat je kunt upgraden en evolueren als je het genoeg geld en upgrades hebt verzameld.<br>Er komen tijdens het vliege ook veijandelijke vliegtuigen dus die moet je bevechten.",
         "dev": "De game is wel nog in development. Later komt er meer informatie.",
         "Contribution-Title": "Wat ik er tot nu toe aan heb bijgedragen:",
         "Move": "Zoals ik had verwacht voor de zoveelste keer gewerkt aan de player movement.<br>Heb dit samen met de nieuwe Unity input system gedaan.<br>Wat hier ook bij hoort is de rotaties van het vliegtuig.<br>Bijvoorbeeld als je naar links toe gaat dan draait het vliegtuig ook naar links."
     },
 
-    "EN": {
+    "NL": {
         "info": "Being inspired by '80s arcade games, but also wanting to add a modern twist, has led to the start of this project.<br>This classic shooter lets you fly a plane that you can then upgrade and evolve if you have gathered the necessary money and upgrades.<br>While flying you encounter enemies that you have to fight.",
         "dev": "The game is still in development though. More information will come later.",
         "Contribution-Title": "What I've contributed to it so far:",

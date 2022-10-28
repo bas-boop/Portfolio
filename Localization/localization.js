@@ -1,5 +1,5 @@
 const langButton = document.getElementById('language-button');
-const locales = ['NL', 'EN'];
+const locales = ['EN', 'NL'];
 
 // VERANDER DIT NIET DIRECT!
 const target = {locale: null};
@@ -56,7 +56,7 @@ const param = new URLSearchParams(window.location.search).get('lang');
 if(param != null) proxy.locale = param;
 
 // Als locale nogsteeds null is dan defaulten we naar nederland.
-if(proxy.locale === null) proxy.locale = 'NL';
+if(proxy.locale === null) proxy.locale = 'EN';
 
 // TODO: button handler.
 

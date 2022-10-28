@@ -1,11 +1,11 @@
 {
-    "NL": {
+    "EN": {
         "paragraph-1":"Dit is een verticale-slice van Mariokart Wii/64/8 deluxe, een combienatie van de 3. De bedoeling is dat je 10/15 seconden van het orgineel na maak.<br>We kozen om <a href=\"https://mariokart.fandom.com/wiki/Mario_Raceway\" target=\"_blank\" style=\"color:aqua;\">dit na te maken.",
         "paragraph-2":"Ik heb vooral aan de car movement gewerkt, gas geven, remmen en sturen. Dit heb ik wel interessant gedaan, ik duw een sphere.<br>Het driften van de auto en de boost er van krijgen was heel moeilijk, maar leerzaam.<br>Ik heb ook gewerkt aan Unity particle groups.",
         "paragraph-3":"Jammer genoeg is dit project niet af gekomen."
     },
 
-    "EN": {
+    "NL": {
         "paragraph-1":"This is a vertical-slice of Mariokart Wii/64/8 deluxe, a combination of the 3. The aim is to replicate 10/15 seconds of the original.<br>We chose to <a href=\"https://mariokart.fandom.com/wiki/Mario_Raceway\" target=\"_blank\" style=\"color:aqua;\"> replicate this.",
         "paragraph-2":"I mainly worked on the car movement, accelerating, braking and steering. I did this interestingly, I push a sphere.<br>Drifting the car and getting the boost from it was very difficult, but educational.<br>I have also worked on Unity particle groups.",
         "paragraph-3":"Unfortunately, this project has not been completed."
