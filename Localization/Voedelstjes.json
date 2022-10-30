@@ -2,7 +2,7 @@
     "EN": {
         "paragraph-1":"Voedelstjes is een kleine game die ik heb gemaakt voor een gamejam. Waarmee ik in totaal 36 uur mee bezig ben geweest, in een tijd van een week.",
         "paragraph-2":"Je speelt als een aardbei of kiwi en verzamelt voorwerpen om het ander stuk fruit in jam te veranderen.<br>Je zoekt 5 voorwerpen om te winnen terwijl je bestek aan het vermijden bent, anders ga je dood.<br>Als je niet snel genoeg bent, dan maakt de andere stuk fruit jou naar jam, je moet snel jammen.",
-        "paragraph-3":"Wat ik technisch nieuw heb geleerd, zijn Json files. Dit heb ik gebruikt om de player keuze op te slaan.<br>Dit kan ik later toepassen op andere projecten.",
+        "paragraph-3":"Wat ik technisch nieuw heb geleerd, zijn Json files.<br>Dit heb ik gebruikt om de player keuze op te slaan.<br>Dit kan ik later toepassen op andere projecten.",
         "paragraph-4":"Ik focusete mij op het snel maken van een speelbare game.<br>Heb ook voor het eerst sound effects toegevoegd aan een game. Als laatste, heb ik ook zelf pixel art gemaakt.",
         "game": "Klik hier om naar de playable game te gaan!"
     },
@@ -10,7 +10,7 @@
     "NL": {
         "paragraph-1":"Voedelstjes is a small game I made for a game jam. Which I spent a total of 36 hours on in a week.",
         "paragraph-2":"You play as a strawberry or kiwi and collect items to turn the other piece of fruit into jam.<br>You are looking for 5 items to win while avoiding cutlery or you will die.<br>If you're not fast enough, the other piece of fruit will make you jam, you have to jam fast.",
-        "paragraph-3":"What I learned new technically are Json files. I used this to save the player choice.<br>I can later apply this to other projects.",
+        "paragraph-3":"What I learned new technically are Json files.<br>I used this to save the player choice.<br>I can later apply this to other projects.",
         "paragraph-4":"I focused on making a playable game fast.<br>Also added sound effects to a game for the first time. Finally, I also made pixel art myself.",
         "game": "Click here to play the game!"
     }

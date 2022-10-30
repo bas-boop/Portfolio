@@ -81,6 +81,8 @@ footer{
 hr.line {
     border-top: 3px solid yellow;
     margin: 9px;
+    width: 90%;
+    margin-left: 5%;
 }
 .game {
     margin: 10px;
@@ -126,7 +128,9 @@ img:hover{
 
 .warp{
     display: flex;
+    align-items: start;
     flex-wrap: wrap;
+    
 }
 
 /*ID*/
