@@ -9,12 +9,13 @@
     <header>
         <h1><a href="https://www.bas-de-reus.nl/index.html">Portfolio</a>: Custom Physics System (Operation Starfall)</h1>
         <h1 style="margin-left: 150px;"><a href="AboutMe.html">About me</a></h1>
+        <button id="language-button">NL</button>
     </header>
 
     <div class="description">
         <h2>Description</h2>
-        <p>De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Het is een game dat gaat om momentem. Heb aan het zelfde project ook gewerkt toen werkte ik vooral aan <span><a href="OperationStarfall-EM.html" style="color:aqua;">Extensive Playermovement</a></span>.</p>
-        <p>Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Wat nog interessanter is dat ik het heb uitgebreid, scroll naar benden voor meer informatie.<br>Wat ik weer heb gedaan is voor 1 sprint scrum master zijn, deze keer voor 3 weken.<br>Wat ik vooral geleerd heb is dat ik dacht dat ik veel van de taal C# wist, toen ontdekte ik nog meer dingen dat je kan doen mee.</p>
+        <p class="locale-target" id="GameDec">De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Het is een game dat gaat om momentem. Heb aan het zelfde project ook gewerkt toen werkte ik vooral aan <span><a href="OperationStarfall-EM.html" style="color:aqua;">Extensive Playermovement</a></span>.</p>
+        <p class="locale-target" id="Description">Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Wat nog interessanter is dat ik het heb uitgebreid, scroll naar benden voor meer informatie.<br>Wat ik weer heb gedaan is voor 1 sprint scrum master zijn, deze keer voor 3 weken.<br>Wat ik vooral geleerd heb is dat ik dacht dat ik veel van de taal C# wist, toen ontdekte ik nog meer dingen dat je kan doen mee.</p>
         <p class="locale-target" id="Git"><span style="color: red;">De git repository is op privé!</span><br>Het wordt een commerciële game.</p>
     </div>
 
@@ -22,11 +23,17 @@
     <h2 style="text-align: center;">Force System Expation:</h2>
     <p class="center">Gekke dingen met raycast, lijsten, nullables en tuple.<br>Toen was de player niet in de ground meer.</p>
 
-    <hr class="line">
+    <!--<hr class="line">
     <h2 style="text-align: center;">Ledge-up with SetPostion():</h2>
-    <p class="center">SetPostion(op houdige locatie, Vector.Up)<br>Dit in een corutine en animations laten klopen.</p>
+    <p class="center">SetPostion(op houdige locatie, Vector.Up)<br>Dit in een corutine en animations laten klopen.</p>-->
 
     <footer>
         <h1><span style="font-size: 12px;">Gameplay Programmer:</span> Bas de Reus</h1>
     </footer>
+
+    <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
+    
+    <!-- Localization -->
+    <script>const filePath = 'Localization/OS-CPS.json';</script>
+    <script src="Localization/localization.js"></script>
 </body>

@@ -1,0 +1,13 @@
+{
+    "EN": {
+        "GameDec": "De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Het is een game dat gaat om momentem. Heb aan het zelfde project ook gewerkt toen werkte ik vooral aan <span><a href=\"OperationStarfall-EM.html\" style=\"color:aqua;\">Extensive Playermovement</a></span>.",
+        "Description": "Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Wat nog interessanter is dat ik het heb uitgebreid, scroll naar benden voor meer informatie.<br>Wat ik weer heb gedaan is voor 1 sprint scrum master zijn, deze keer voor 3 weken.<br>Wat ik vooral geleerd heb is dat ik dacht dat ik veel van de taal C# wist, toen ontdekte ik nog meer dingen dat je kan doen mee.",
+        "Git": "<span style=\"color: red;\">De git repository is op privé!</span><br>Het wordt een commerciële game."
+    },
+
+    "NL": {
+        "GameDec": "The game is a 2.5D Metroidvania Couch Co-op based on the cartoons of 80's Sci-Fi.<br>It's a game about momentum. Also worked on the same project then I mainly worked on <span><a href=\"OperationStarfall-EM.html\" style=\"color:aqua;\">Extensive Playermovement</a></span>.",
+        "Description": "What is interesting to tell is that this game has its own force system.<br>What's even more interesting is that I've expanded it, scroll down for more information.<br>What I have done again is being a sprint scrum master for 1 time, this time for 3 weeks.<br>What I especially learned is that I knew that I learned a lot about C#, then I can do even more things that you can do with it.",
+        "Git": "<span style=\"color: red;\">The git repository is private!</span><br>It will be a commercial game."
+    }
+}
