@@ -4,6 +4,7 @@ body {
     background-color: rgb(16, 0, 35);
     color: white;
     font-family: monospace;
+    font-size: 16px;
 }
 
 header {
@@ -32,7 +33,7 @@ header {
 
 header a, header p{
     font-family: monospace;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 header button {
@@ -69,6 +70,7 @@ h1 {
     margin: 0;
 }
 footer{
+    font-size: 12px;
     z-index: 10;
 }
 
@@ -99,6 +101,7 @@ img{
 }
 img:hover{
     transform: scale(1.25);
+    z-index: 11;
 }
 .game:hover {
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
