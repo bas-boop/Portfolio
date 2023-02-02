@@ -73,6 +73,10 @@ footer{
     font-size: 12px;
     z-index: 10;
 }
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
 
 /*Classes*/
 .projects {

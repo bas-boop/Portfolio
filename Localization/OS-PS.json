@@ -1,0 +1,19 @@
+{
+    "EN": {
+        "GameDec": "De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Heb aan het zelfde project ook gewerkt toen aan <span><a href=\"OperationStarfall-EM.html\" style=\"color:aqua;\">Extensive Playermovement</a></span> en <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>.",
+        "Description": "In het project waren er al pick-ups, maar toen we er op verder wouden bouwen ging dat niet fijn.<br>Daarom hebben we het opnieuw en beter gemaakt. We alle functies die er is waren zijn er nog, met een uitbreiding van chains.<br>Er is een grote focus op SRP.",
+        "Git": "<span style=\"color: red;\">De git repository is op privé!</span><br>Het wordt een commerciële game.",
+        "System": "Je hebt 1 PickupSystem class die chains en losse pickups managed.<br>Bij bijna elke stuk van het systeem zijn er events die dingen in de scene kunnen triggeren:<ul><li>Waneer je een individuele pickup oppakt.</li><li>Waneer je een hele chain complete</li><li>Waneer je alle pickups in de hele scene hebt opgepakt</li></ul>",
+        "Chain": "Chains zijn een collectie aan pickups en kunnen ordered of unordered zijn.<br>Als ze ordered zijn kun je de pickups aleen oppakken in de volgorde hoe je de pickups in de chain hebt gezet.",
+        "Pickup": "Een pickup geeft alleen door of het opgepakt is aan de systeem.<br>Ook zorgd het er voor dat het visuale acpect ervan uit of aan gaat."
+    },
+
+    "NL": {
+        "GameDec": "The game is a 2.5D Metroidvania Couch Co-op based on the cartoons of 80's Sci-Fi.<br>I have worked also on in the same project with <span><a href=\"OperationStarfall-EM.html\" style =\"color:aqua;\">Extensive Playermovement</a></span> and <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>.",
+        "Description": "There were already pick-ups in the project, but when we wanted to build on it, it didn't go well.<br>That's why we made it again and better. We've got all the features that were there, with an expansion of chains.<br>There's a big focus on SRP.",
+        "Git": "<span style=\"color: red;\">The git repository is private!</span><br>It will be a commercial game.",
+        "System": "You have 1 PickupSystem class that manages chains and single pickups.<br>Almost every piece of the system has events that can trigger things in the scene:<ul><li>When you pick up an individual pickup.</li> <li>When you complete an entire chain</li><li>When you have picked up all pickups in the entire scene</li></ul>",
+        "Chain": "Chains are a collection of pickups and can be ordered or unordered.<br>If they are ordered, you can only pick up the pickups in the order you chained the pickups.",
+        "Pickup": "A pickup only reports whether it has been picked up to the system. It also ensures that the visual aspect of it turns off or on."
+    }
+}
