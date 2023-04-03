@@ -1,0 +1,11 @@
+{
+    "EN": {
+        "Description": "Een VR karaoke game in opdracht voor <a href=\"https://www.avrotros.nl\" style=\"color: cyan;\">AVROTROS</a>, dit is tijdens mijn stage gemaakt bij XR-Lab!<br>Tijdens dit project heb ik de rollen van game developer en scrum master opgepakt.<br><br>De bedoeling is een om de TV show “Beste Zangers” te vertalen naar een VR mulitplayer game.<br>Een groot leer moment met dit project was,<br>maak feature’s met mulitplayer vanaf het begin EN neem een week tijd om alles te bespreken met het team.",
+        "SES": "Tijdens karaoké wil je niet saai een beetje zingen,<br>daarom hebben we special effects zoals confetti, rookmachine, vuurwerk en lampen die draaien.<br>De bedoel was dat de andere spelers dit zou doen via de knoppen, maar mulitplayer werd hem niet.<br>Hierdoor is de random events ontstaan."
+    },
+    
+    "NL": {
+        "Description": "A VR karaoke game commissioned for <a href=\"https://www.avrotros.nl\" style=\"color: cyan;\">AVROTROS</a>, this was made during my internship at XR-Lab!<br>During this project I took on the roles of game developer and scrum master.<br><br>The intention is to translate the TV show “Beste Zangers” into a VR mulitplayer game.<br>A big learning moment with this project was,<br>create features with mulitplayer in mind AND take a week to discuss everything for the game with the team.",
+        "SES": "During karaoke you don't want to sing a bit that's boring,<br>that's why we have special effects such as confetti, smoke machine, fireworks and lamps that rotate.<br>The intention was that the other players would do this via the buttons, but mulitplayer didn't get in.<br>This resulted are the random events."
+    }
+}
