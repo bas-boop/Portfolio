@@ -26,12 +26,14 @@
     </header>
 
     
-    <button class="toggle-button" onclick="toggleProjectDiv('filter1')">New</button>
-    <button class="toggle-button" onclick="toggleProjectDiv('filter2')">Old</button>
-    <button class="toggle-button" onclick="toggleProjectDiv('filter3')">Year</button>
-    <button class="toggle-button" onclick="toggleProjectDiv('filter4')">My projects</button>
-    <button class="toggle-button" onclick="toggleProjectDiv('filter5')">Work</button>
-    <button class="toggle-button" onclick="toggleProjectDiv('filter6')">School</button>
+    <div style="margin: 20px;">
+        <button class="toggle-button" onclick="toggleProjectDiv('filter1')">New</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter2')">Old</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter3')">Year</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter4')">My projects</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter5')">Work</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter6')">School</button>
+    </div>
 
     <div id="filter1" style="display: block;">
         <div class="project-container" style="display: block;">
@@ -134,7 +136,7 @@
     
     <div id="filter6" style="display: none;">
         <div class="project-container">
-            <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="School">School:</h2>
+            <h2 style="margin-left: 10px;" class="kopje Filter" id="School">School:</h2>
             <div class="projects">
                 <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
                 <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
@@ -153,5 +155,5 @@
 
     <!-- Localization -->
     <script>const filePath = 'Localization/AllProject.json';</script>
-    <!-- <script src="Localization/localization.js"></script> -->
+    <script src="Localization/localization.js"></script>
 </body>
