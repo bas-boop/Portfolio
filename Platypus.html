@@ -9,49 +9,49 @@
 <body>
     <header>
         <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: Platypus</h1>
-        <h1 style="margin-left: 150px;"><a href="AboutMe.html" class="link">About me</a></h1>
+        <h1 style="margin-left: 150px;"><a href="About-Me" class="link">About me</a></h1>
         <button id="language-button">NL</button>
     </header>
 
     <div class="description">
         <h2 class="kopje">Description</h2>
         <p class="locale-target" id="Description">Dit is een passie project van mij.<br>Op het moment ben ik veel aan het designen en prototypen.<br><a href="https://trello.com/b/hPXQKk13/platypus-game" class="link" target="_blank">Trello</a>, hier kan je zien wat er nog gedaan gaat worden of wat af is.<br><a href="https://github.com/bas-boop/Platypus-game" class="link" target="_blank">Github</a>, hier kan je de source code van alles zien.<br><a href="https://www.tatumdevries.dev" class="link" target="_blank">Tatum</a> heeft veel geholpen met het design.</p>
-        <img src="Platypus/Enviorment mock-up.png" alt="mock-up">
+        <img src="Media/Platypus/Enviorment mock-up.png" alt="mock-up">
     </div>
 
     <hr class="line">
     <h2 class="center kopje" id="StateMachine">Abstract, player and enemy StateMachine:</h3>
     <p class="center locale-target" id="StateMachine">Ik had niet genoeg controle over de player vond ik, dus ik heb een StateMachine ervoor gemaakt om meer controle over te hebben.<br>Als ik toch bezig ben waarom niet een abstract StateMachine en gelijk enemy StateMachine maken.<br>Er is ook een state queue gemaakt, dit is vooral handig voor de speler. Was je net te vroeg met je input, dan wordt het alsnog gedaan.<br>Dit heeft een grote focus op S.R.P., anders kon ik de hele speler in 1 class maken.<br>Wat ik hiervan heb geleerd een betere begrip over abstract classes en diepe duik in code nemen vind ik heel leuk.</p>
-    <a href="Platypus/Abstract StateMachine, Player & Enemy UML.pdf" class="link center" target="_blank">UML class diagram PDF!</a>
-    <div class="center"><img src="Platypus/StateMachine, Player & Enemy UML.jpeg" alt="Very big UML" style="width: 70%;" class="code-gif"></div>
-    <div class="center"><img src="Platypus/PlayerStateManager-Inspector.jpg" alt="PlayerStateManager-Inspector" class="code-gif"></div>
-    <div class="center"><img src="Platypus/StateMachine-SwitchState.jpg" alt="StateMachine-SwitchState" class="code-gif"></div>
-    <div class="center"><img src="Platypus/PlayerStateManager-SwitchState.jpg" alt="StateMachine-SwitchState" class="code-gif"></div>
-    <div class="center"><img src="Platypus/BaseState.jpg" alt="CodeSnippet" class="code-gif"></div>
-    <div class="center"><img src="Platypus/PlayerBaseState.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <a href="Media/Platypus/Abstract StateMachine, Player & Enemy UML.pdf" class="link center" target="_blank">UML class diagram PDF!</a>
+    <div class="center"><img src="Media/Platypus/StateMachine, Player & Enemy UML.jpeg" alt="Very big UML" style="width: 70%;" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/PlayerStateManager-Inspector.jpg" alt="PlayerStateManager-Inspector" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/StateMachine-SwitchState.jpg" alt="StateMachine-SwitchState" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/PlayerStateManager-SwitchState.jpg" alt="StateMachine-SwitchState" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/BaseState.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/PlayerBaseState.jpg" alt="CodeSnippet" class="code-gif"></div>
 
     <hr class="line">
     <h2 class="center kopje" id="Pick-up System">Pick-up System:</h3>
     <p class="center locale-target" id="Pick-up">Dit is een pick-up system met een PickType als Enum. Ook heb je een inleverpunt om de opgepakt items in te leveren.<br>Dit heeft een goede implantatie van SRP.</p>
-    <div class="center"><img src="Platypus/UML Pick-up System.jpeg" alt="CodeSnippet" style="width: 35%;" class="code-gif"></div>
-    <div class="center"><img src="Platypus/PickupType.jpg" alt="CodeSnippet" class="code-gif"></div>
-    <div class="center"><img src="Platypus/AddPickup.jpg" alt="CodeSnippet" class="code-gif"></div>
-    <div class="center"><img src="Platypus/pick-up.jpg" alt="CodeSnippet" class="code-gif"></div>
-    <div class="center"><img src="Platypus/DeliveryPoint.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/UML Pick-up System.jpeg" alt="CodeSnippet" style="width: 35%;" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/PickupType.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/AddPickup.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/pick-up.jpg" alt="CodeSnippet" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/DeliveryPoint.jpg" alt="CodeSnippet" class="code-gif"></div>
 
     <hr class="line">
     <h2 class="center kopje">Player Dash:</h3>
     <div class="locale-target center" id="Dash" style="display: block;"><p>De feature waardoor het project is gestart.<br>Dit lijkt heel erg op een debug feature die ik had gemaakt tijdens <a href="OperationStarfall-CPS.html" class="link">Custom Physics System</a>, het leek me leuk om het terug te brengen.<br><br>Wanneer je klikt op het scherm daar dashed de speler naartoe.<br><a href="https://gist.github.com/bas-boop/663866777ceeb2516123d659d004b2cc" target="_blank" class="link">Het gehele script.</a></p></div><br>
     <div class="center">
         <video width="640" height="360" controls style="margin: 15px; box-shadow: -9px -2px 30px 9px rgba(219,7,46,0.53);" autoplay loop muted>
-            <source src="Platypus/DashAbillity-Showcase.mp4" type="video/mp4">
+            <source src="Media/Platypus/DashAbillity-Showcase.mp4" type="video/mp4">
     </div>
-    <div class="center"><img src="Platypus/DashAbility.jpg" alt="CodeSnippet" class="center code-gif"></div>
+    <div class="center"><img src="Media/Platypus/DashAbility.jpg" alt="CodeSnippet" class="center code-gif"></div>
 
     <hr class="line">
     <h2 class="center kopje">Early concept design:</h3><br>
-    <div class="center"><img src="Platypus/Platypus_Player_Concept.png" alt="Player concept" style="width: 30%;" class="code-gif"></div><br>
-    <div class="center"><img src="Platypus/Platypus-schets.png" alt="Player schets" style="width: 30%;" class="code-gif"></div>
+    <div class="center"><img src="Media/Platypus/Platypus_Player_Concept.png" alt="Player concept" style="width: 30%;" class="code-gif"></div><br>
+    <div class="center"><img src="Media/Platypus/Platypus-schets.png" alt="Player schets" style="width: 30%;" class="code-gif"></div>
 
     <footer>
         <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
