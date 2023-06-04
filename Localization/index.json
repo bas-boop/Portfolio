@@ -2,12 +2,12 @@
     "EN": {
         "current-projects": "Huidige projecten",
         "proud-projects": "De 3 projecten/games waar ik het meest trots op ben.",
-        "XR-Lab": "<a href=\"https://www.xr-lab.nl\" style=\"color:aqua;\" target=\"_blank\">XR-Lab</a> Stage:"
+        "XR-Lab": "<a href=\"https://www.xr-lab.nl\" target=\"_blank\"class=\"link\">XR-Lab</a> Stage:"
     },
 
     "NL": {
         "current-projects": "Current projects",
         "proud-projects": "The 3 games I'm most proud of.",
-        "XR-Lab": "<a href=\"https://www.xr-lab.nl\" style=\"color:aqua;\" target=\"_blank\">XR-Lab</a> Intership:"
+        "XR-Lab": "<a href=\"https://www.xr-lab.nl\" target=\"_blank\" class=\"link\">XR-Lab</a> Intership:"
     }
 }

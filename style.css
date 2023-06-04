@@ -21,6 +21,7 @@ header {
     align-items: center;
     gap: 20px;
 }
+
 @media screen and (max-width: 500px) {
     header{
         height: 70px;
@@ -36,18 +37,6 @@ header a, header p{
     font-size: 30px;
 }
 
-header button {
-    margin-left: auto;
-    margin-right: 20px;
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    background-color: rgb(138, 43, 226);
-    color: cyan;
-    outline-color: #21f33a;
-    outline-style: solid;
-}
-
 footer {
     background-image: linear-gradient(to top left, rgb(8, 64, 0), rgba(16, 0, 35,0));
     width: 85%;
@@ -61,21 +50,37 @@ footer {
     padding-right: 5px;
 }
 
+h1 {
+    margin: 0;
+}
+
+footer{
+    font-size: 12px;
+    z-index: 10;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
 a {
     color: white;
     font-family: monospace;
 }
 
-h1 {
-    margin: 0;
+img{
+    transition: transform .175s;
+    z-index: 1;
 }
-footer{
-    font-size: 12px;
-    z-index: 10;
+
+img:hover{
+    transform: scale(1.25);
+    z-index: 11;
 }
-ul {
-    text-align: center;
-    list-style-position: inside;
+.game:hover img {
+    filter: brightness(50%);
+    transform: scale(1);
 }
 
 /*Classes*/
@@ -84,36 +89,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
-hr.line {
-    border-top: 3px solid yellow;
-    margin: 9px;
-    width: 90%;
-    margin-left: 5%;
-}
-.game {
-    margin: 10px;
-    width: 250px;
-    height: 350px;
-    flex-direction: row;
-    background-color: rgb(138, 43, 226);
-    color: white;
-    font-size: 16px;
-}
-img{
-    transition: transform .175s;
-    z-index: 1;
-}
-img:hover{
-    transform: scale(1.25);
-    z-index: 11;
-}
-.game:hover {
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-}
-.game:hover img {
-    filter: brightness(50%);
-    transform: scale(1);
-}
+
 .game a {
     width: 100%;
     height: 100%;

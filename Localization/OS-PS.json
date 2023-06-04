@@ -1,6 +1,6 @@
 {
     "EN": {
-        "GameDec": "De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Heb aan het zelfde project ook gewerkt toen aan <span><a href=\"OperationStarfall-EM.html\" style=\"color:aqua;\">Extensive Playermovement</a></span> en <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>.",
+        "GameDec": "De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Heb aan het zelfde project ook gewerkt toen aan <span><a href=\"OperationStarfall-EM.html\" class=\"link\">Extensive Playermovement</a></span> en <span><a href=\"OperationStarfall-CPS.html\" class=\"link\">Custom Physics System</a></span>.",
         "Description": "In het project waren er al pick-ups, maar toen we er op verder wouden bouwen ging dat niet fijn.<br>Daarom hebben we het opnieuw en beter gemaakt. We alle functies die er is waren zijn er nog, met een uitbreiding van chains.<br>Er is een grote focus op SRP.",
         "Git": "<span style=\"color: red;\">De git repository is op privé!</span><br>Het wordt een commerciële game.",
         "System": "Je hebt 1 PickupSystem class die chains en losse pickups managed.<br>Bij bijna elke stuk van het systeem zijn er events die dingen in de scene kunnen triggeren:",
@@ -11,7 +11,7 @@
     },
 
     "NL": {
-        "GameDec": "The game is a 2.5D Metroidvania Couch Co-op based on the cartoons of 80's Sci-Fi.<br>I have worked also on in the same project with <span><a href=\"OperationStarfall-EM.html\" style =\"color:aqua;\">Extensive Playermovement</a></span> and <span><a href=\"OperationStarfall-CPS.html\" style=\"color:aqua;\">Custom Physics System</a></span>.",
+        "GameDec": "The game is a 2.5D Metroidvania Couch Co-op based on the cartoons of 80's Sci-Fi.<br>I have worked also on in the same project with <span><a href=\"OperationStarfall-EM.html\" class=\"link\">Extensive Playermovement</a></span> and <span><a href=\"OperationStarfall-CPS.html\" class=\"link\">Custom Physics System</a></span>.",
         "Description": "There were already pick-ups in the project, but when we wanted to build on it, it didn't go well.<br>That's why we made it again and better. We've got all the features that were there, with an expansion of chains.<br>There's a big focus on SRP.",
         "Git": "<span style=\"color: red;\">The git repository is private!</span><br>It will be a commercial game.",
         "System": "You have 1 PickupSystem class that manages chains and single pickups.<br>Almost every piece of the system has events that can trigger things in the scene:",

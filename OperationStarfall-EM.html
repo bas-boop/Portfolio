@@ -4,60 +4,59 @@
     <title>Bas de Reus: Extensive Playermovement</title>
     <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="NeonLights.css">
 </head>
 <body>
     <header>
-        <h1><a href="https://www.bas-de-reus.nl">Portfolio</a>: Extensive Playermovement</h1>
-        <h1 style="margin-left: 150px;"><a href="AboutMe.html">About me</a></h1>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: Extensive Playermovement</h1>
+        <h1 style="margin-left: 150px;"><a href="AboutMe.html" class="link">About me</a></h1>
         <button id="language-button">NL</button>
     </header>
 
     <div class="description">
-        <h2>Description</h2>
-        <p class="locale-target" id="Description">Dit is een groot project waarin ik een developer ben. Het is een onderdeel van het HLO (hybride leer omgeving).<br>Dit houdt in dat voornamelijk studeten er aan werken, naast 2 docenten/product owners.<br>Elke 10 weken wordt er een nieuwe selectie aan studenten gekozen, je kan meerdere keren gekozen worden.<br>De game is een 2.5D Metroidvania Couch Co-op gebaseerd op de cartoons van 80's Sci-Fi. Het is een game dat gaat om momentum.<br>Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Dat vergelijkbaar is met Rigidbody wat in Unity zit, maar dan beter naar mijn mening.</p>
-        <p class="locale-target" id="Scrum">Wat ik ook heb gedaan is voor 1 sprint scrum master zijn, voor 2 weken.<br>Dus de daylie stand-ups en -downs organiseren en door de dag heen bij iedereen checken of het lukt met wat ze maken.<br>Ook kijk ik of iedereen wel de todo’s op Trello goed hebben staan.</p>
-        <p class="locale-target" id="Conclusion">Wat ik vooral geleerd heb is in een groot team werken en een betere programmeur worden.<br>Want we verdiepen in game development wat ik niet zou bereiken met een simpel 8 weken school project.</p>
-        <p class="locale-target" id="Andere OS">Heb aan het zelfde project ook gewerkt aan <span><a href="OperationStarfall-CPS.html" style="color:aqua;">Custom Physics System</a></span> en <span><a href="OperationStarfall-PS.html" style="color:aqua;">Pickup System</a></span>.</p>
+        <h2 class="kopje">Description</h2>
+        <p class="locale-target" id="Description">De eerste paar dingen waar ik aan in heb gewerkt in dit project, is het tweaken van de player movement.<br>Waaronder de jump momentum, ledge grabbing en releasing en deceration.<br>Dit heeft mij geleerd hoe om al bestaande code te lezen.</p>
+        <p class="locale-target" id="Andere OS">Heb aan het zelfde project ook gewerkt aan <span><a href="OperationStarfall-CPS.html" class="link">Custom Physics System</a></span> en <span><a href="OperationStarfall-PS.html" class="link">Pickup System</a></span>.</p>
         <p class="locale-target" id="Git"><span style="color: red;">De git repository is op privé!</span><br>Het wordt een commerciële game.</p>
     </div>
 
     <hr class="line">
-    <h2 class="center" id="JumpMomentum">Jump momentum (Version 1):</h2>
+    <h2 class="center kopje" id="JumpMomentum">Jump momentum (Version 1):</h2>
     <div class="wrap center">
         <div class="">
             <p>Before:</p>
-            <img src="StarFall/NoMomentumJump.gif" alt="NoMomentumJump gif" style="width: 70%;"></div>
+            <img src="StarFall/NoMomentumJump.gif" alt="NoMomentumJump gif" style="width: 70%;" class="code-gif"></div>
         <div class="">
             <p>After:</p>
-            <img src="StarFall/YesMomentumJump.gif" alt="YesMomentumJump gif" style="width: 70%;"></div>
+            <img src="StarFall/YesMomentumJump.gif" alt="YesMomentumJump gif" style="width: 70%;" class="code-gif"></div>
     </div>
     <p class="center locale-target" id="JumpMomentum">Wanneer je tijdens het lopen zou springen en dan lopen los laat dan zal je naar benden vallen, alsof je een onzichtbare muur zal raken.<br>Beetje onlogische, ik heb er voor gezorgd dat je momentum zal blijven houden.<br>Dit heb ik gedaan met een force te geven wanneer je geen input meer geef.</p>
-    <div class="center"><img src="StarFall/JumpMomentum.jpg" alt="CodeSnippet" class="center"></div><br>
+    <div class="center"><img src="StarFall/JumpMomentum.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
     <hr class="line">
-    <h2 class="center" id="JumpMomentum2">Jump momentum (Version 2):</h2>
+    <h2 class="center kopje" id="JumpMomentum2">Jump momentum (Version 2):</h2>
     <p class="center locale-target" id="JumpMomentum2">Bij de eerste versie verloor je wat controlle, want je krijgt een set distance mee geven, die je wel kan om draaien.<br>Alleen je kon geen tap geven en een beetje verder komen.<br><br>Daarom verander ik de air accleration dynamis met wel of niet input geven in de lucht.<br>Hierdoor kan je ook uit stilstaan graduweel bewegen in de lucht.</p>
-    <div class="center"><img src="StarFall/JumpMomentum2.jpg" alt="CodeSnippet" class="center"></div><br>
-    <div class="center"><img src="StarFall/YesMomentumJump.gif" alt="YesMomentumJump gif" style="width: 30%;"></div>
+    <div class="center"><img src="StarFall/JumpMomentum2.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="StarFall/YesMomentumJump.gif" alt="YesMomentumJump gif" style="width: 30%;" class="code-gif"></div>
     <hr class="line">
-    <h2 class="center" id="ReleaseLedge">Release Ledge:</h2>
-    <div class="center"><img src="StarFall/Release.gif" alt="Dropping gif" style="width: 30%;"></div>
+    <h2 class="center kopje" id="ReleaseLedge">Release Ledge:</h2>
+    <div class="center"><img src="StarFall/Release.gif" alt="Dropping gif" style="width: 30%;" class="code-gif"></div>
     <p class="center locale-target" id="Dropping">Optimaliseren van het loslaten van de ledge wanneer je er aan hangt.<br>Je kon er namelijk alleen boven op komen, dus we hebben het gemaakt dat je het gewoon kan loslaten, waardoor je naar beneden valt.<br>Dit geeft meer opties en logica aan het spel.</p>
-    <div class="center"><img src="StarFall/Release1.png" alt="CodeSnippet" class="center"></div><br>
-    <div class="center"><img src="StarFall/Release2.jpg" alt="CodeSnippet" class="center"></div><br>
+    <div class="center"><img src="StarFall/Release1.png" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="StarFall/Release2.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
     <hr class="line">
-    <h2 class="center" id="Decelerator">Decelerator:</h2>
-    <div class="center"><img src="StarFall/SpeedFade.gif" alt="Falling gif" style="width: 30%;"></div>
+    <h2 class="center kopje" id="Decelerator">Decelerator:</h2>
+    <div class="center"><img src="StarFall/SpeedFade.gif" alt="Falling gif" style="width: 30%;" class="code-gif"></div>
     <p class="center locale-target" id="Falling">Als je van een hoogte zal komen naar de grond, dan zou je momentum houden wanneer je land op de grond.<br>Hierdoor sta je niet ineens stil op de grond wanneer je heel snel ging.<br>Dit hebben we gedaan via de forces van de Force System.</p>
-    <div class="center"><img src="StarFall/Decelerator.jpg" alt="CodeSnippet" class="center"></div><br>
+    <div class="center"><img src="StarFall/Decelerator.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
     <hr class="line">
-    <h2 class="center" id="Deceleration">Deceleration:</h2>
-    <div class="center"><img src="StarFall/Deceleration.gif" alt="Deceleration gif" style="width: 30%;"></div>
+    <h2 class="center kopje" id="Deceleration">Deceleration:</h2>
+    <div class="center"><img src="StarFall/Deceleration.gif" alt="Deceleration gif" style="width: 30%;" class="code-gif"></div>
     <p class="center locale-target" id="Deceleration">Heb ook gewerkt aan de Deceleration van de speler.<br>Dus als je aan het lopen bent en stopt met input geven, dan doe je nog een paar kleine stappen totdat je echt stil staat.<br>Hierdoor sta je niet gelijk stil alsof je een muur raakt.</p>
-    <div class="center"><img src="StarFall/Deceleration.jpg" alt="CodeSnippet" class="center"></div><br>
-    <div class="center"><img src="StarFall/movesettings.jpg" alt="CodeSnippet" class="center"></div><br>
+    <div class="center"><img src="StarFall/Deceleration.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="StarFall/movesettings.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
 
     <footer>
-        <h1>Gameplay Programmer: Bas de Reus</h1>
+        <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
     </footer>
     
     <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>

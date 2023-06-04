@@ -1,0 +1,15 @@
+{
+    "EN": {
+        "Description": "Dit is een groot project waarin ik een developer was. Het is een onderdeel van het HLO (hybride leer omgeving).<br>Dit houdt in dat voornamelijk studeten er aan werken, naast 2 docenten/product owners.<br>Elke 10 weken wordt er een nieuwe selectie aan studenten gekozen, je kan meerdere keren gekozen worden.<br>De game is een 2.5D Metroidvania Couch Co-op gebaseerd op de cartoons van 80's Sci-Fi. Het is een game dat gaat om momentum.<br>Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Dat vergelijkbaar is met Rigidbody wat in Unity zit, maar dan beter naar mijn mening.",
+        "Scrum": "Wat ik ook heb gedaan is voor 2 sprints scrum master zijn, een sprint is lang 2/3 weken.<br>Dus de daylie stand-ups en -downs organiseren en door de dag heen bij iedereen checken of het lukt met wat ze maken.<br>Hiernaast heb ik ook een retrospectief bij gehouden, hier geeft iedereen zijn mening hoe het ging afgelopen sprint.<br>Ook kijk ik of iedereen wel de todo’s op Trello goed hebben staan.",
+        "Conclusion": "Wat ik vooral geleerd heb is in een groot team werken en goede ervaring van hoe het werk in de industry.<br>Dit project gaf mee ook de kans op een diepe duik te krijgen in programeren<br>Want we verdiepen in game development wat ik niet zou bereiken met een simpel 8 weken school project.",
+        "features": "De grote features waar ik aan heb gewerkt:"
+    },
+
+    "NL": {
+        "Description": "This is a big project in which I was a developer. It is part of the HLO (hybrid learning environment).<br>This means that mainly students work on it, in addition to 2 teachers/product owners.<br>Every 10 weeks a new selection of students is chosen, you can be chosen multiple times.<br>The game is a 2.5D Metroidvania Couch Co-op based on the cartoons of 80's Sci-Fi. It's a game about momentum.<br>What's interesting to say is that this game has its own force system.<br>Which is similar to Rigidbody which is in Unity, but better in my opinion.",
+        "Scrum": "What I also did is be a scrum master for 2 sprints, a sprint is 2/3 weeks long.<br>In addition, I also kept a retrospective, here everyone gives their opinion on how it went last sprint.<br>I also check whether everyone has set up the todo's on Trello correctly.",
+        "Conclusion": "What I especially learned is working in a large team and good experience of how it works in the industry.<br>This project also gave me the chance to get a deep dive into programming<br>Because we delve into game development what I wouldn't achieve with a simple 8 week school project.",
+        "features": "The big features where I worked on:"
+    }
+}
