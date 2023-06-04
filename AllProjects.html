@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Bas de Reus: All Games</title>
-    <script src="SortProjects.js"></script>
     <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="NeonLights.css">
@@ -27,16 +26,16 @@
 
     
     <div style="margin: 20px;">
-        <button class="toggle-button locale-target" id="button1" onclick="toggleProjectDiv('filter1')">New</button>
-        <button class="toggle-button locale-target" id="button2" onclick="toggleProjectDiv('filter2')">Old</button>
-        <button class="toggle-button locale-target" id="button3" onclick="toggleProjectDiv('filter3')">Year</button>
-        <button class="toggle-button locale-target" id="button4" style="width: 120px;" onclick="toggleProjectDiv('filter4')">My projects</button>
-        <button class="toggle-button locale-target" id="button5" onclick="toggleProjectDiv('filter5')">Work</button>
-        <button class="toggle-button" onclick="toggleProjectDiv('filter6')">School</button>
+        <button class="toggle-button locale-target" id="button1" onclick="toggleView('filter1')">New</button>
+        <button class="toggle-button locale-target" id="button2" onclick="toggleView('filter2')">Old</button>
+        <button class="toggle-button locale-target" id="button3" onclick="toggleView('filter3')">Year</button>
+        <button class="toggle-button locale-target" id="button4" style="width: 120px;" onclick="toggleView('filter4')">My projects</button>
+        <button class="toggle-button locale-target" id="button5" onclick="toggleView('filter5')">Work</button>
+        <button class="toggle-button" onclick="toggleView('filter6')">School</button>
     </div>
 
-    <div id="filter1" style="display: block;">
-        <div class="project-container" style="display: block;">
+    <div id="filter1" class="view shown">
+        <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="New">Gesorteerd op het nieuwste:</h2>
             <div class="projects">
                 <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
@@ -57,8 +56,8 @@
         </div>
     </div>
 
-    <div id="filter2" style="display: none;">
-        <div class="project-container" style="display: none;">
+    <div id="filter2" class="view">
+        <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Old">Gesorteerd op het oudste:</h2>
             <div class="projects">
                 <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA.png"></a></div>
@@ -79,8 +78,8 @@
         </div>
     </div>
 
-    <div id="filter3" style="display: none;">
-        <div class="project-container" style="display: none;">
+    <div id="filter3" class="view"">
+        <div class="project-container">
             <div id="Year" class="Filter">
                 <h2 style="margin-left: 10px;" class="kopje">2023:</h2>
                 <div class="projects">
@@ -111,7 +110,7 @@
         </div>
     </div>
 
-    <div id="filter4" style="display: none;">
+    <div id="filter4" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="MyProjects">Mijn projecten:</h2>
             <div class="projects">
@@ -123,7 +122,7 @@
         </div>
     </div>
     
-    <div id="filter5" style="display: none;">
+    <div id="filter5" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Work">Werk:</h2>
             <div class="projects">
@@ -134,7 +133,7 @@
         </div>
     </div>
     
-    <div id="filter6" style="display: none;">
+    <div id="filter6" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="kopje Filter" id="School">School:</h2>
             <div class="projects">
@@ -156,4 +155,6 @@
     <!-- Localization -->
     <script>const filePath = 'Localization/AllProject.json';</script>
     <script src="Localization/localization.js"></script>
+
+    <script src="SortProjects.js"></script>
 </body>

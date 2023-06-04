@@ -121,3 +121,11 @@ img:hover{
     text-align: center;
     margin-bottom: 70px;
 }
+
+.view {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
