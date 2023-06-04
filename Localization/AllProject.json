@@ -1,11 +1,25 @@
 {
     "EN": {
+        "button1": "Nieuwste",
+        "button2": "Oudste",
+        "button3": "Jaartal",
+        "button4": "Eigen projecten",
+        "button5": "Werk",
         "New": "Gesorteerd op het nieuwste:",
-        "Pland": "Geplande projecten/games:"
+        "Old": "Gesorteerd op het oudste:",
+        "MyProjects": "Mijn eigen projecten:",
+        "Work": "Werk ervaring projecten:"
     },
 
     "NL": {
+        "button1": "Newest",
+        "button2": "Oldest",
+        "button3": "Year",
+        "button4": "Own projects",
+        "button5": "Work",
         "New": "Sorted by newest:",
-        "Pland": "Planned projects/games:"
+        "Old": "Sorted by oldest:",
+        "MyProjects": "My own projects:",
+        "Work": "Work experience projects:"
     }
 }
