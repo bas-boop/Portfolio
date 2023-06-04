@@ -1,6 +1,6 @@
 {
     "EN": {
-        "Description": "Dit was mijn eerste game, waar we met ze drieën aan hebben gewerkt. Dit was ook de eerste keer werken in Unity met C#.<br>Ik heb hier een goede basic geleerd van game development, want heb een paar mechanics gemaakt.<br>Ook heb ik een beetje game design gedaan en het uit werken ervan.<br><br><a href=\"AAR.html\" style=\"color: aqua;\">We gaan dit nog een keer opnieuw maken,</a> maar dan met meer kennis.",
+        "Description": "Dit was mijn eerste game, waar we met ze drieën aan hebben gewerkt. Dit was ook de eerste keer werken in Unity met C#.<br>Ik heb hier een goede basic geleerd van game development, want heb een paar mechanics gemaakt.<br>Ook heb ik een beetje game design gedaan en het uit werken ervan.<br><br><a href=\"AAR.html\" class=\"link\">We gaan dit nog een keer opnieuw maken,</a> maar dan met meer kennis.",
         "Warning": "(De beelden die je hieronder ziet kunnen afwijken van het eind product. Er waren veel problemen met de github, er is niet echt een final version.)",
         "Play": "Klik hier om naar de playable game te gaan!<br>",
         "Player Stats": "In een game met actie is het leuk als je een health systeem heb, die heb ik dus ook gemaakt.<br>Via een UI element kan ik laten zien wat je health points zijn.<br>Daarna maakte ik wat pixel art voor de health bar.<br>Toen was ik benieuwd of ik de kleur van de health points kon veranderen als het bijna op is, dus als het 15% is ongeveer dat wordt het rood en op 40% wordt het geel.<br>Ook kan het over tijd langzaam terug komen.<br>Daarna deedt ik Ctrl+C en Ctrl+V, toen was er een Mana en Stamina bar.",
@@ -10,7 +10,7 @@
     },
 
     "NL": {
-        "Description": "This was my first game, which the three of us worked on. This was also the first time working in Unity with C#.<br>I learned a good basic of game development here, because I made a few mechanics.<br>I also did a bit of game design and working it out.<br><br><a href=\"AAR.html\" style=\"color: aqua;\">We're going to recreate this one more time,</a> but with more knowledge.",
+        "Description": "This was my first game, which the three of us worked on. This was also the first time working in Unity with C#.<br>I learned a good basic of game development here, because I made a few mechanics.<br>I also did a bit of game design and working it out.<br><br><a href=\"AAR.html\" class=\"link\">We're going to recreate this one more time,</a> but with more knowledge.",
         "Warning": "(The images you see below may differ from the final product. There were many problems with the github, there is not really a final version.)",
         "Play": "Click here to go to the playable game!<br>",
         "Player Stats": "In a game with action it is nice if you have a health system, so I made that too.<br>I can show what your health points are via a UI element.<br>Then I made some pixel art for the health bar.<br>Then I was wondering if I could change the color of the health points when it's running low, so if it's about 15% it turns red.<br>Then I did Ctrl+C and Ctrl+V, then there was a Mana and Stamina bar.<br>It can also come back slowly over time.",

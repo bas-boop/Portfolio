@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bas de Reus: Kara-oke</title>
+    <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="NeonLights.css">
+</head>
+<body>
+    <header>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: Kara-oke</h1>
+        <h1 style="margin-left: 150px;"><a href="AboutMe.html" class="link">About me</a></h1>
+        <button id="language-button">NL</button>
+    </header>
+
+    <div class="description">
+        <h2 class="link">Description</h2>
+        <p class="locale-target" id="Description">Een VR karaoke game in opdracht voor <a href="https://www.avrotros.nl" class="link" target="_blank">AVROTROS</a>, dit is tijdens mijn stage gemaakt bij <a href="https://www.xr-lab.nl" class="link" target="_blank">XR-Lab</a>!</p>
+        <div class="center">
+            <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                <source src="XR-Lab/Kara-oke/Kara-Oke_Trailer.mp4" type="video/mp4">
+            </div>
+        <div class="center"><img src="XR-Lab/Kara-oke/AVROTROS certificate.jpeg" alt="certificate" class="center code-gif" style="width: 40%;"></div><br>
+        <div>
+            <h1 class="kopje">Team: Kara-oke</h1>
+            <h2 class="kopje">Devs:</h2>
+            <p style="margin: 0;">Bas de Reus</p>
+            <a href="https://danielnijkamp.xyz" target="_blank" class="link">Daniel Nijkamp</a><br>
+            <a href="https://www.kellinschaap.nl" target="_blank" class="link">Kellin Schaap</a><br>
+            <a href="https://www.joaojubitana.com" target="_blank" class="link">Joao Jubitana</a><br>
+            <a href="https://www.williamsoijer.com" target="_blank" class="link">William Soijer</a><br>
+            <h2 class="kopje">Artists:</h2>
+            <a href="https://www.artstation.com/dylanvanb" target="_blank" class="link">Dylan van Bommel</a><br>
+            <a href="https://www.artstation.com/felinestemp" target="_blank" class="link">Feline Stemp</a><br>
+            <a href="https://www.artstation.com/nando_dobal" target="_blank" class="link">Nando Dobal</a><br>
+            <a href="https://www.artstation.com/taquilavh" target="_blank" class="link">Taquila van Houwelingen</a><br>
+        </div>
+    </div>
+
+    <hr class="line">
+    <h2 class="center kopje">Special effects system:</h3>
+        <div class="center">
+            <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                <source src="XR-Lab/Kara-oke/RandomEvents.mp4" type="video/mp4">
+        </div>
+    <p class="locale-target center" id="SES">Tijdens karaoké wil je niet saai een beetje zingen,<br>daarom hebben we special effects zoals confetti, rookmachine, vuurwerk en lampen die draaien.<br>De bedoel was dat de andere spelers dit zou doen via de knoppen, maar mulitplayer werd hem niet.<br>Hierdoor is de random events ontstaan.</p>
+    <a href="https://gist.github.com/bas-boop/2937bf21dd989120bf4d8ac50783c57f" target="_blank" class="center link">RandomEffectsSystem.cs!</a><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/UML special effects.jpeg" alt="UML" class="center code-gif" style="width: 30%;"></div><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/Lamp.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/Particale.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+
+    <hr class="line">
+    <h2 class="center kopje">Character Selection:</h3>
+    <p class="locale-target center" id="Character">In een mulitplayer game wil je natuurlijk dat iemand jou representeert.<br>Daarom heb ik gewerkt aan character selection.<br>Ook nog dat de VR rig is gekoppeld aan de models van de charachter, alleen dit is jammer genoeg niet gebruikt wan mulitplayer is er niet.</p>
+    <div class="center"><img src="XR-Lab/Kara-oke/CharacterSelection.gif" alt="DashAbility gif" style="width: 30%;" class="code-gif"></div><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/CharacterSelection.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center">
+        <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+            <source src="XR-Lab/Kara-oke/VR-rig-with-character.mp4" type="video/mp4">
+        </div>
+    <div class="center"><img src="XR-Lab/Kara-oke/VRrig.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+
+    <hr class="line">
+    <h2 class="center kopje">Win System:</h3>
+    <p class="locale-target center" id="Win">Voor elke game is er een gameloop nodig. Klein probleem, het is de laatste sprint en er is geen gameloop.<br>Dus ik en Daniel hebben hele (niet) mooie code geschreven om een game loop te maken in weinig tijd.<br>Wat er in moet zitten is een moment dat de AI en speler hebben gezongen, zodat er een winner kan gekozen worden.<br>Er was gepland om een vote system te maken, maar weinig tijd dus dan maar random 1 van de 2 kiezen.<br>Onderaan staat code voor de winscreen om te laten draaien.</p>
+    <div class="center"><img src="XR-Lab/Kara-oke/WinSysytem-Update.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/WinSysytem-Winner.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="XR-Lab/Kara-oke/WinScreen.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+
+    <footer>
+        <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
+    </footer>
+
+    <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
+
+    <!-- Localization -->
+    <script>const filePath = 'Localization/Kara-oke.json';</script>
+    <script src="Localization/localization.js"></script>
+</body>

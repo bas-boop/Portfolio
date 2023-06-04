@@ -4,34 +4,46 @@
     <title>Bas de Reus: Custom Physics System</title>
     <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="NeonLights.css">
 </head>
 <body>
     <header>
-        <h1><a href="https://www.bas-de-reus.nl">Portfolio</a>: Custom Physics System</h1>
-        <h1 style="margin-left: 150px;"><a href="AboutMe.html">About me</a></h1>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: Custom Physics System</h1>
+        <h1 style="margin-left: 150px;" class="link"><a href="AboutMe.html">About me</a></h1>
         <button id="language-button">NL</button>
     </header>
 
     <div class="description">
-        <h2>Description</h2>
-        <p class="locale-target" id="GameDec">De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Het is een game dat gaat om momentem. Heb aan het zelfde project ook gewerkt toen werkte ik vooral aan <span><a href="OperationStarfall-EM.html" style="color:aqua;">Extensive Playermovement</a></span>.</p>
+        <h2 class="kopje">Description</h2>
+        <p class="locale-target" id="GameDec">De game is een 2.5D Metroidvania Couch Co-op gebaaseerd op de cartoons van 80's Sci-Fi.<br>Het is een game dat gaat om momentem. Heb aan het zelfde project ook gewerkt aan <span><a href="OperationStarfall-EM.html" class="link">Extensive Playermovement</a></span> en <span><a href="OperationStarfall-PS.html" class="link">Pickup System</a></span>.</p>
         <p class="locale-target" id="Description">Wat interessant is om te vertellen, is dat deze game zijn eigen force systeem heeft.<br>Wat nog interessanter is dat ik het heb uitgebreid, scroll naar benden voor meer informatie.<br>Wat ik weer heb gedaan is voor 1 sprint scrum master zijn, deze keer voor 3 weken.<br>Wat ik vooral geleerd heb is dat ik dacht dat ik veel van de taal C# wist, toen ontdekte ik nog meer dingen dat je kan doen mee.</p>
         <p class="locale-target" id="Git"><span style="color: red;">De git repository is op privé!</span><br>Het wordt een commerciële game.</p>
     </div>
 
     <hr class="line">
-    <h2 style="text-align: center;">Force System Expation:</h2>
+    <h2 class="center kopje">Force System Expation:</h2>
+    <a href="https://gist.github.com/bas-boop/b7d6a44f6867845b6fcedcc36779cf5f" target="_blank" class="link center">Github Gist</a>
     <p class="center locale-target" id="DE-FEATURE">Wanneer je de player z’n positie hard verplaatst, dan kan je in een muur of in de grond vast komen.<br>Met deze systeem extensie kom je altijd naast of op de muur of grond.<br><br>Hier gebruik ik veel technische onderdelen van de taal C#.<br>Tuple, een return funcite maar dan moet je meerdere dingen returnen.<br>Nullable, als je een return functie heb dan mag het ook null zijn, zodat je geen onnodige data hoef te geven, zoals een Vector3.Zero.<br>Heb ook veel gewerkt met raycasts en de list van wat er wordt geraakt.</p>
-    <div class="center"><img src="StarFall/VisualSheet-Forcesystem-Postion.png" alt="game-sheet" style="margin: 15px; width: 55%;"></div>
+    <div class="center"><img src="StarFall/VisualSheet-Forcesystem-Postion.png" alt="game-sheet" style="margin: 15px; width: 55%;" class="code-gif"></div>
 
-    <!--<hr class="line">
-    <h2 style="text-align: center;">Hotfix:</h2>
-    <div class="center"><img src="StarFall/Gizmos-hotfix" alt="in-game" style="margin: 15px;"></div>
-    <p class="center locale-target" id="Hotfix">De spherecast instantiate in de center van de blauw cirkel.<br>Maar als een gedeelte van de cirkel in een collider zit dan zit je vast.<br>Daarom heb ik een hotfix gemaakt en spherecast instantiate bij de rand van de cirkel.</p>
-    <div class="center"><img src="StarFall/hotfix-code.jpg" alt="code snippet" style="margin: 15px;"></div>-->
+    <hr class="line">
+    <h2 class="center kopje">Drone in wall:</h2>
+    <p class="center locale-target" id="drone">Hier een voorbeeld van hoe het gebruikt kan worden.<br>De drones kunnen geslagen worden en gaan vast zitten in de muur. Met deze functie gaan ze naast de muur worden gezet.<br>Ze stuiteren gelijk weg vanwege een state van de drone.</p>
+    <div class="wrap center">
+        <div class="">
+            <p>Before:</p>
+            <img src="StarFall/Setpostion-drone-before.gif" alt="Setpostion-drone-before gif" style="width: 70%;" class="code-gif">
+            <img src="StarFall/Setpostion-drone-before.jpg" style="width: 70%;" alt="CodeSnippet" class=" code-gif">
+        </div>
+        <div class="">
+            <p>After:</p>
+            <img src="StarFall/Setpostion-drone-after.gif" alt="Setpostion-drone-after gif" style="width: 70%;" class="code-gif">
+            <img src="StarFall/Setpostion-drone-after.jpg" style="width: 70%;" alt="CodeSnippet" class=" code-gif">
+        </div>
+    </div>
 
     <footer>
-        <h1>Gameplay Programmer: Bas de Reus</h1>
+        <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
     </footer>
 
     <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>

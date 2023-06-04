@@ -1,7 +1,7 @@
 {
     "EN": {
         "paragraph-1": "In dit spel speel je als Mecco de Chameleon.<br>Mecco is aan het leren hoe kleuren werken, daarom bedekt Mecco zichzelf in baden met verf, je kunt ook de kleuren combineren.<br>Match de kleur van Mecco met die van de deur om er doorheen te lopen!<br>Er is ook een timer, dus kijk hoever je kan komen.",
-        "paragraph-2": "<a href=\"https://itch.io/jam/wanna-yam-jam\" target=\"_blank\" style=\"color:aqua;\">Dit is een spel die ik heb gemaakt voor een gamejam.</a><br>Dus dat betekend dat er een beperkte tijd, 9 dagen, en er was een thema dat in de game verwerkt moest worden.<br>In dit geval was het thema “Combineren”.",
+        "paragraph-2": "<a href=\"https://itch.io/jam/wanna-yam-jam\" target=\"_blank\" class=\"link\">Dit is een spel die ik heb gemaakt voor een gamejam.</a><br>Dus dat betekend dat er een beperkte tijd, 9 dagen, en er was een thema dat in de game verwerkt moest worden.<br>In dit geval was het thema “Combineren”.",
         "paragraph-3": "Wat ik vooral heb geleerd is om goed te scopen voor de game en om het snel speelbaar te maken.<br>Binnen 3 dagen had ik de core mechenica af, de rest was voor art en polish.<br>Over de art, heb voor het eerst geprobeert om het te animeren.",
         "paragraph-4": "Door de feedback van de spelers heb ik vernomen dat het moeilijk te spelen is als je kleurenblind bent.<br>Dat klinkt logisch, dus heb een colorblind mode gemaakt.<br>Was geïnspireerd door de Among Us cable task.",
         "game": "Klik hier om naar de playable game te gaan!<br>Ook op de browser speelbaar!",
@@ -11,7 +11,7 @@
 
     "NL": {
         "paragraph-1": "In this game you play as Mecco the Chameleon.<br>Mecco is learning how colors work, so Mecco covers herself in baths with paint, you can also combine the colors.<br>Match the color of Mecco with that of the door to walk through!<br>There is also a timer, so see how far you can get.",
-        "paragraph-2": "<a href=\"https://itch.io/jam/wanna-yam-jam\" target=\"_blank\" style=\"color:aqua;\">This is a game I made for a game jam.</a><br>So that means there was a limited time, 9 days, and there was a theme that had to be incorporated into the game.<br>In this case, the theme was “COMBINATION”.",
+        "paragraph-2": "<a href=\"https://itch.io/jam/wanna-yam-jam\" target=\"_blank\" class=\"link\">This is a game I made for a game jam.</a><br>So that means there was a limited time, 9 days, and there was a theme that had to be incorporated into the game.<br>In this case, the theme was “COMBINATION”.",
         "paragraph-3": "What I especially learned is to scope well for the game and to make it playable quickly.<br>Within 3 days I finished the core mechanics, the rest was for art and polish.<br>About the art, first time trying to animate it.",
         "paragraph-4": "I learned from the feedback from the players that it is difficult to play if you are color blind.<br>That sounds logical, so I made a colorblind mode.<br>Was inspired by the Among Us cable task.",
         "game": "Click here to play the game!<br>Also playable in the browser",
