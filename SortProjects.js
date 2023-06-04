@@ -25,3 +25,13 @@ function toggleProjectDiv(divId)
         currentProjectId = null;
     }
 }
+
+const projectViews = Array.from(document.getElementsByClassName("view"));
+
+// const temp = document.createElement('div');
+
+function toggleView(id) {
+    projectViews.forEach(view => {
+        view.id == id ? view.classList.add('shown') : view.classList.remove('shown');
+    });
+}
