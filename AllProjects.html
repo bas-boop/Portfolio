@@ -2,10 +2,12 @@
 <html>
 <head>
     <title>Bas de Reus: All Games</title>
+    <script src="SortProjects.js"></script>
     <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="NeonLights.css">
 </head>
+
 <body>
     <header>
         <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: All Projects/Games</h1>
@@ -23,91 +25,126 @@
         <meta content="image/x-icon" property="og:image">
     </header>
 
-    <div style="margin-top: 20px;">
-        <!-- <h2 style="margin-left: 10px;" class="locale-target kopje" id="New">Gesorteerd op het nieuwste:</h2>
-        <div class="projects">
-            <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
-            <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
-            <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
-            <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
-            <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
-            <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
-            <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
-            <-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> --
-            <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
-            <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
-            <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
-            <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
-            <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
-            <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA.png"></a></div>
-        </div> -->
+    
+    <div style="margin: 20px;">
+        <button class="toggle-button locale-target" id="button1" onclick="toggleProjectDiv('filter1')">New</button>
+        <button class="toggle-button locale-target" id="button2" onclick="toggleProjectDiv('filter2')">Old</button>
+        <button class="toggle-button locale-target" id="button3" onclick="toggleProjectDiv('filter3')">Year</button>
+        <button class="toggle-button locale-target" id="button4" style="width: 120px;" onclick="toggleProjectDiv('filter4')">My projects</button>
+        <button class="toggle-button locale-target" id="button5" onclick="toggleProjectDiv('filter5')">Work</button>
+        <button class="toggle-button" onclick="toggleProjectDiv('filter6')">School</button>
+    </div>
 
-        <!-- <h2 style="margin-left: 10px;" class="locale-target kopje" id="Old">Gesorteerd op het nieuwste:</h2>
-        <div class="projects">
-            <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA.png"></a></div>
-            <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
-            <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
-            <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
-            <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
-            <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
-            !-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> --
-            <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
-            <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
-            <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
-            <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
-            <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
-            <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
-            <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
-        </div> -->
-
-        <h2 style="margin-left: 10px;" class="kopje">2023:</h2>
-        <div class="projects">
-            <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
-            <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
-            <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
-            <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
+    <div id="filter1" style="display: block;">
+        <div class="project-container" style="display: block;">
+            <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="New">Gesorteerd op het nieuwste:</h2>
+            <div class="projects">
+                <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
+                <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
+                <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
+                <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
+                <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
+                <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
+                <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
+                <!-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> -->
+                <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
+                <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+                <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
+                <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
+                <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
+                <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA.png"></a></div>
+            </div>
         </div>
+    </div>
 
-        <h2 style="margin-left: 10px;" class="kopje">2022:</h2>
-        <div class="projects">
-            <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
-            <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
-            <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
-            <!-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> -->
-            <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
-            <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+    <div id="filter2" style="display: none;">
+        <div class="project-container" style="display: none;">
+            <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Old">Gesorteerd op het oudste:</h2>
+            <div class="projects">
+                <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA.png"></a></div>
+                <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
+                <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
+                <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
+                <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+                <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
+                <!-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> -->
+                <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
+                <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
+                <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
+                <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
+                <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
+                <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
+                <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
+            </div>
         </div>
+    </div>
 
-        <h2 style="margin-left: 10px;" class="kopje">2021:</h2>
-        <div class="projects">
-            <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
-            <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
-            <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
-            <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA-old.png"></a></div>
+    <div id="filter3" style="display: none;">
+        <div class="project-container" style="display: none;">
+            <div id="Year" class="Filter">
+                <h2 style="margin-left: 10px;" class="kopje">2023:</h2>
+                <div class="projects">
+                    <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
+                    <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
+                    <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
+                    <div class="game"><a href="OperationStarfall-PS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-PS.png"></a></div>
+                </div>
+
+                <h2 style="margin-left: 10px;" class="kopje">2022:</h2>
+                <div class="projects">
+                    <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
+                    <div class="game"><a href="OperationStarfall-CPS.html"><img src="Tumbnails/Portifolio game tumbnail-OS-CPS.png"></a></div>
+                    <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
+                    <!-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> -->
+                    <div class="game"><a href="OperationStarfall-EM.html"><img src="Tumbnails/Portifolio game tumbnail-OS-EM.png"></a></div>
+                    <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+                </div>
+
+                <h2 style="margin-left: 10px;" class="kopje">2021:</h2>
+                <div class="projects">
+                    <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
+                    <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
+                    <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
+                    <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA-old.png"></a></div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <!-- <h2 style="margin-left: 10px;" class="kopje">Mijn projecten:</h2>
-        <div class="projects">
-            <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
-            <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
-            <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+    <div id="filter4" style="display: none;">
+        <div class="project-container">
+            <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="MyProjects">Mijn projecten:</h2>
+            <div class="projects">
+                <div class="game"><a href="Platypus.html"><img src="Tumbnails/Portifolio game tumbnail-Platypus.png"></a></div>
+                <!-- <div class="game"><a href="AAR.html"><img src="Tumbnails/Portifolio game tumbnail-AAR.png"></a></div> -->
+                <div class="game"><a href="Mecco.html"><img src="Tumbnails/Portifolio game tumbnail-MTC.png"></a></div>
+                <div class="game"><a href="Voedelstjes.html"><img src="Tumbnails/Portifolio game tumbnail-Voedelstjes.png"></a></div>
+            </div>
         </div>
-
-        <h2 style="margin-left: 10px;" class="kopje">Werk ervaringen:</h2>
-        <div class="projects">
-            <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
-            <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
-            <div class="game"><a href="OperationStarfall.html"><img src="Tumbnails/Portifolio game tumbnail-starfall.png"></a></div>
+    </div>
+    
+    <div id="filter5" style="display: none;">
+        <div class="project-container">
+            <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Work">Werk:</h2>
+            <div class="projects">
+                <div class="game"><a href="Gpal.html" class="kopje">Big secret AR project</a></div>
+                <div class="game"><a href="Kara-oke.html"><img src="Tumbnails/Portifolio game tumbnail-Kara-oke.png"></a></div>
+                <div class="game"><a href="OperationStarfall.html"><img src="Tumbnails/Portifolio game tumbnail-starfall.png"></a></div>
+            </div>
         </div>
-
-        <h2 style="margin-left: 10px;" class="kopje">School:</h2>
-        <div class="projects">
-            <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
-            <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
-            <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
-            <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
-            <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA-old.png"></a></div>
-        </div> -->
+    </div>
+    
+    <div id="filter6" style="display: none;">
+        <div class="project-container">
+            <h2 style="margin-left: 10px;" class="kopje Filter" id="School">School:</h2>
+            <div class="projects">
+                <div class="game"><a href="AirForce.html"><img src="Tumbnails/Portifolio game tumbnail-AirForce.png"></a></div>
+                <div class="game"><a href="MK.html"><img src="Tumbnails/Portifolio game tumbnail-MK.png"></a></div>
+                <div class="game"><a href="Cuphead.html"><img src="Tumbnails/Portifolio game tumbnail-CH.png"></a></div>
+                <div class="game"><a href="VormenVsFormen.html"><img src="Tumbnails/Portifolio game tumbnail-VVF.png"></a></div>
+                <div class="game"><a href="Adley'sAdevture.html"><img src="Tumbnails/Portifolio game tumbnail-AA-old.png"></a></div>
+            </div>
+        </div>
     </div>
 
     <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
