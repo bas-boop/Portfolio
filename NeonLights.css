@@ -30,6 +30,25 @@ hr.line {
     box-shadow: 5px 5px 23px rgba(1,171,144,0.74);
 }
 
+.gameWIP {
+    box-shadow: 5px 5px 23px rgba(199, 5, 5, 0.53);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height: 350px;
+    flex-direction: row;
+    background-color: rgb(138, 43, 226);
+    color: white;
+    font-size: 16px;
+}
+
+.gameWIP:hover {
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    box-shadow: 5px 5px 23px rgba(107, 5, 5, 0.53);
+}
+
 .link{
     text-shadow: 0 0 8px rgb(135, 255, 255), 0 0 12px rgb(0,255, 255);
 }

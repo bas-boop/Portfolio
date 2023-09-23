@@ -1,0 +1,15 @@
+{
+    "EN": {
+        "Description": "The lost reel is een 3D-horrorspel, waarbij je wordt opgejaagd door een onmenselijk wezen.<br>Ook al wordt er op je gejaagd, probeer je de verloren filmrol te vinden en te pakken.<br><br>Dit is gemaakt voor de \"Do you WANNA Jam?! 2023\" gamejam.<br>Met het thema \"FREEZE\".<br>Er zitten 80 inzendingen in deze jam.",
+        "Platypus": "Voor deze monster AI heb ik gebruik gemaakt van mijn Platypus statemachine.",
+        "AI": "Er zijn verschillende states zoals, idle, wandering, seeking, chasing and killing.<br>Dit was gedaan om het een eng monster te creëren die je moet ontwijken.",
+        "Spawner": "Als speler wil je niet gelijk dood kunnen gaan, daarom spawned het monster later in dan de speler.<br>Zo heeft de speler wat tijd om de omgeving te ontdekken."
+    },
+
+    "NL": {
+        "Description": "The lost reel is a 3D horror game, where you are being hunted by an un-human like creature.<br>Even though you are being hunted, you try to find and collect the lost film reel.<br><br>This was made for the \"Do you WANNA Jam?! 2023\" game jam.<br>With the theme \"FREEZE\".<br>There are 80 submisson in this jam.",
+        "Platypus": "For this monster AI I used my Platypus state machine.",
+        "AI": "There are different states like, idle, wandering, seeking, chasing and killing.<br>This was done to create a scary monster that you have to avoid.",
+        "Spawner": "As a player you don't want to be able to die right away, so the monster spawns later than the player.<br>This way the player has some time to explore the environment."
+    }
+}

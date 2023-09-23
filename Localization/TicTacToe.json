@@ -1,0 +1,15 @@
+{
+    "EN": {
+        "Description": "Een console-app waar je boter-kaas-en-eieren kunt spelen met iemand anders of met de computer.<br>Dit is gemaakt in C++, daar zou ik graag meer over willen leren.<br>Als iemand de HARD AI kan verslaan, deel het dan met mij.",
+        "AI": "Om C++ classes te leren wou ik graag een AI tegenstander maken, zodat ik het ook gelijk abstract kan maken.<br>Er zijn 3 niveau om tegen te spelen, makkelijk, matig en moeilijk.",
+        "Input": "Voor alle input van de speler was er een inputhandeler nodig,<br>zo kan elke setting gegeven worden en kiezen welke plek je jouw vorm wilt zetten.<br>Er is opgelet op antwoord dat niet mogelijk zijn.",
+        "Grid": "Het onthoud het veld via een enum, zegt of er een winner is of gelijk spel.<br>Er zijn veel functies om de AI te helpen met bepalen wat te doen."
+    },
+
+    "NL": {
+        "Description": "A console app where you can play tic-tac-toe with someone else or with the computer.<br>This is made in C++, I'd like to learn more about it.<br>If someone can beat the HARD AI please share it with me.",
+        "AI": "To learn C++ classes I wanted to make an AI opponent so I can make it abstract right away.<br>There are 3 levels to play against, easy, medium and hard.",
+        "Input": "All input from the player required an input handler,<br>so any setting can be given and choose where to place your shape.<br>Note that answer is not possible." ,
+        "Grid": "It remembers the field via an enum, says if there is a winner or tie.<br>There are many functions to help the AI decide what to do."
+    }
+}

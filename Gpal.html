@@ -1,30 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bas de Reus: AR project</title>
+    <title>Bas de Reus: AR Gpal</title>
     <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="NeonLights.css">
 </head>
 <body>
     <header>
-        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: AR project</h1>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: AR Gpal</h1>
         <h1 class="link" style="margin-left: 150px;"><a href="About-Me">About me</a></h1>
+        <h1 class="link" style="margin-left: 150px;"><a href="All-Projects">All projects</a></h1>
         <button id="language-button">NL</button>
     </header>
 
     <div class="description">
-        <h2 class="link">Description</h2>
-        <p class="locale-target" id="Description">Gekke AR project voor de Hololens 2, dit is tijdens mijn stage gemaakt bij <a href="https://www.xr-lab.nl" class="link" target="_blank">XR-Lab</a>!</p>
+        <h2 class="kopje">Description</h2>
+        <p class="locale-target" id="Description">Een leerzaam AR project voor de Hololens 2, dit is tijdens mijn stage gemaakt bij <a href="https://www.xr-lab.nl" class="link" target="_blank">XR-Lab</a>!<br>We kregen als opdracht om de bestaande app/webapp van GPal te vertalen naar een AR omgeefing.<br>Dit hebben we dan voor de klant van GPal, de ambulance post Amsterdam.<br><br>We hebben het idee van hun instructie video’s mee genomen en de interactie veranderd naar digitale knoppen die rond om de couveuse hangen.<br>Ook kan je via voice commands alles besturen zodat je hands free de applicatie kan gebruiken.</p>
+        <p class="locale-target" id="Git" style="color: red;">Er is geen git repository beschikbaar omdat deze zich in een privémodus bevindt vanwege het bedrijf.</p>
+
+        <div class="warp center">
+            <div>
+                <h3 class="kopje">Trailer:</h3>
+                <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                    <source src="Media/XR-Lab/GPal/Gpal_Final_Trailer.mp4" type="video/mp4">
+            </div>
+            <div>
+                <h3 class="kopje">Instruction:</h3>
+                <video width="640" height="360" controls style="margin: 15px;" loop muted class="code-gif">
+                    <source src="Media/XR-Lab/GPal/Handbook.mp4" type="video/mp4">
+            </div>
+        </div>
+        
+        <div>
+            <h1 class="kopje">Team: AR GPal</h1>
+            <h2 class="kopje">Devs:</h2>
+            <p style="margin: 0;">Bas de Reus</p>
+            <a href="https://www.kellinschaap.nl" target="_blank" class="link">Kellin Schaap</a><br>
+            <h2 class="kopje">Artists:</h2>
+            <a href="https://www.artstation.com/nando_dobal" target="_blank" class="link">Nando Dobal</a><br>
+        </div>
     </div>
 
     <hr class="line">
+    <h2 class="center kopje">Interactable:</h2>
+    <p class="center locale-target" id="Interactable">Deze interactable geeft de gebruiker de mogelijkheid door aanraking om een video kunnen starten, pauzeren en stoppen.<br>Tijdens het starten wordt subtiel het logo van de klant getoond, wat de merkidentiteit versterkt.<br>Met dit intuïtieve en interactieve element hebben gebruikers volledige controle over hun kijkervaring.</p>
+    <div class="warp center">
+        <div>
+            <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                <source src="Media/XR-Lab/GPal/FinalInteractable.mp4" type="video/mp4">
+        </div>
+        <div>
+            <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                <source src="Media/XR-Lab/GPal/FinalInteractableAR.mp4" type="video/mp4">
+        </div></div>
+    <div class="center"><img src="Media/XR-Lab/GPal/ToggleState.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+    <div class="center"><img src="Media/XR-Lab/GPal/AnimationFunctions.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+
+    <hr class="line">
     <h2 class="center kopje">AR Shader:</h2>
-    <p class="center">Een shader maar dan in AR via de Hololens 2.</p>
-    <div class="center">
+    <p class="center locale-target" id="Shader">Een interactieve AR-shader ontwikkelde voor de HoloLens 2.<br>Deze shader integreert digitale graphics naadloos in de echte wereld en zorgt voor kleurverandering wanneer de gebruiker de virtuele object aanraakt.<br>Een grensverleggend project dat mijn passie voor augmented reality en innovatie versterkt.</p>
+    <div class="warp center">
+    <div>
         <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
             <source src="Media/XR-Lab/GPal/Shader.mp4" type="video/mp4">
     </div>
+    <div>
+        <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+            <source src="Media/XR-Lab/GPal/ShaderInAR.mp4" type="video/mp4">
+    </div></div>
+
+    <div class="center"><img src="Media/XR-Lab/GPal/ShaderGraph.jpg" alt="CodeSnippet" class="center code-gif" style="width: 70%;"></div><br>
 
     <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
 
@@ -33,6 +79,6 @@
     </footer>
 
     <!-- Localization -->
-    <!-- <script>const filePath = 'Localization/index.json';</script> -->
+    <script>const filePath = 'Localization/GPal.json';</script>
     <script src="Localization/localization.js"></script>
 </body>

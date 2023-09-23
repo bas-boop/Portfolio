@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bas de Reus: Tic-Tac-Toe</title>
+    <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="NeonLights.css">
+</head>
+<body>
+    <header>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: Tic-Tac-Toe</h1>
+        <h1 class="link" style="margin-left: 150px;"><a href="About-Me">About me</a></h1>
+        <h1 class="link" style="margin-left: 150px;"><a href="All-Projects">All projects</a></h1>
+        <button id="language-button">NL</button>
+    </header>
+
+    <div class="description">
+        <h2 class="kopje">Description</h2>
+        <p class="locale-target" id="Description">Een console-app waar je boter-kaas-en-eieren kunt spelen met iemand anders of met de computer.<br>Dit is gemaakt in C++, daar zou ik graag meer over willen leren.<br>Als iemand de HARD AI kan verslaan, deel het dan met mij.</p>
+        <a href="https://github.com/bas-boop/tictactoe" class="link">Git repository</a><br><br><br>
+        <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+            <source src="Media/TicTacToe/TicTacToe.mp4" type="video/mp4">
+    </div>
+
+    <hr class="line">
+    <h2 class="center kopje">AI:</h3>
+    <p class="center locale-target" id="AI">Om C++ classes te leren wou ik graag een AI tegenstander maken, zodat ik het ook gelijk abstract kan maken.<br>Er zijn 3 niveau om tegen te spelen, makkelijk, matig en moeilijk.</p>
+    <div class="warp center">
+        <div class="center"><img src="Media/TicTacToe/BaseAI.jpg" class="code-gif"></div>
+        <div class="center"><img src="Media/TicTacToe/EasyAIH.jpg" class="code-gif"></div>
+    </div>
+    <div class="center"><img src="Media/TicTacToe/HardAI.jpg" class="code-gif"></div>
+    <hr class="line">
+    <h2 class="center kopje">InputHandeler:</h3>
+    <p class="center locale-target" id="Input">Voor alle input van de speler was er een inputhandeler nodig,<br>zo kan elke setting gegeven worden en kiezen welke plek je jouw vorm wilt zetten.<br>Er is opgelet op antwoord dat niet mogelijk zijn.</p>
+    <div class="center"><img src="Media/TicTacToe/ChooseShape.jpg" class="code-gif"></div>
+    <div class="center"><img src="Media/TicTacToe/Where.jpg" class="code-gif"></div>
+    <div class="center"><img src="Media/TicTacToe/CoopOrAI.jpg" class="code-gif"></div>
+    <hr class="line">
+    <h2 class="center kopje">Grid:</h3>
+    <p class="center locale-target" id="Grid">Het onthoud het veld via een enum, zegt of er een winner is of gelijk spel.<br>Er zijn veel functies om de AI te helpen met bepalen wat te doen.</p>
+    <div class="center"><img src="Media/TicTacToe/Place.jpg" class="code-gif"></div>
+    <div class="center"><img src="Media/TicTacToe/Winner.jpg" class="code-gif"></div>
+    <div class="center"><img src="Media/TicTacToe/ThreeInARow.jpg" class="code-gif"></div>
+    <div class="center"><img src="Media/TicTacToe/AlmostThree.jpg" class="code-gif"></div>
+
+    <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
+
+    <footer>
+        <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
+    </footer>
+
+    <!-- Localization -->
+    <script>const filePath = 'Localization/TicTacToe.json';</script>
+    <script src="Localization/localization.js"></script>
+</body>

@@ -1,0 +1,17 @@
+{
+    "EN": {
+        "Description": "Het is een 2D pixel rogue-like,<br>waar je in eigen gedachten bent en alle ogen vernietigt die in je geest zijn geïnfiltreerd.<br><br>Een Unity game project gemaakt voor de Brackeys gamejam 2023.2!<br >Het had het thema 'Dive Deeper'.",
+        "Shooting": "In een rogue-like is het van belang om de enemies te bevechten.<br>Dit is gedaan door shooting systeem.<br>De guns stats zijn aanpasbaar via de scriptable objects.",
+        "Buffs": "Je wilt natuurlijk sterker worden in de game.<br>Hiervoor zijn er een paar buffs gemaakt.<br>Je snelheid verhogen, meer health hebben en verschillende guns oppakken.",
+        "Room": "Een rogue-like heeft verschillende rooms waar deuren op en dicht kunnen.<br>Als je alle enemies in de room dood heb, gaan de deuren weer open.",
+        "Art": "We hadden geen artiest bij dit project. Dus nam ik de taak op mij en veranderde de art sytle in pixel art.<br>Ik maakte de vijanden (oogbollen), er is ook een rode en roze variant.<br>Alle buffs: health, speed en de geweren.<br >Ik heb ook de tilemap voor de omgeving gemaakt."
+    },
+    
+    "NL": {
+        "Description": "It is a 2D pixel rogue-like,<br>where you are in the thoughts of yourself, destroying all the eyes that have infiltrated your mind.<br><br>An Unity game project made for the Brackeys gamejam 2023.2!<br>It had the theme of 'Diving Deeper'.",
+        "Shooting": "In a rogue-like it is important to fight the enemies.<br>This is done by shooting system.<br>The guns stats are adjustable via the scriptable objects.",
+        "Buffs": "You naturally want to become stronger in the game.<br>A few buffs have been made for this.<br>Increase your speed, have more health and pick up different guns.",
+        "Room": "A rogue-like has several rooms where doors can be opened and closed.<br>Once you have killed all the enemies in the room, the doors will open again.",
+        "Art": "We had no artist on this project. So I took up the task, turning the art style into pixel art.<br>I made the enemies (eyeballs), there is also a red and pink variant.<br>All buffs: health, speed and the guns.<br>I also created the tile map for the environment."
+    }
+}

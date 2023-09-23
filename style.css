@@ -82,6 +82,10 @@ img:hover{
     filter: brightness(50%);
     transform: scale(1);
 }
+.gameWIP:hover img {
+    filter: brightness(50%);
+    transform: scale(1);
+}
 
 /*Classes*/
 .projects {

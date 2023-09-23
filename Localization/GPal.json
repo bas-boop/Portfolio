@@ -1,0 +1,15 @@
+{
+    "EN": {
+        "Description": "Een leerzaam AR project voor de Hololens 2, dit is tijdens mijn stage gemaakt bij <a href=\"https://www.xr-lab.nl\" class=\"link\" target=\"_blank\">XR-Lab</a>!<br>We kregen als opdracht om de bestaande app/webapp van GPal te vertalen naar een AR omgeefing.<br>Dit hebben we dan voor de klant van GPal, de ambulance post Amsterdam.<br><br>We hebben het idee van hun instructie video’s mee genomen en de interactie veranderd naar digitale knoppen die rond om de couveuse hangen.<br>Ook kan je via voice commands alles besturen zodat je hands free de applicatie kan gebruiken.",
+        "Interactable": "Deze interactable geeft de gebruiker de mogelijkheid door aanraking om een video kunnen starten, pauzeren en stoppen.<br>Tijdens het starten wordt subtiel het logo van de klant getoond, wat de merkidentiteit versterkt.<br>Met dit intuïtieve en interactieve element hebben gebruikers volledige controle over hun kijkervaring.",
+        "Shader": "Een interactieve AR-shader ontwikkelde voor de HoloLens 2.<br>Deze shader integreert digitale graphics naadloos in de echte wereld en zorgt voor kleurverandering wanneer de gebruiker de virtuele object aanraakt.<br>Een grensverleggend project dat mijn passie voor augmented reality en innovatie versterkt.",
+        "Git": "Er is geen git repository beschikbaar omdat deze zich in een privémodus bevindt vanwege het bedrijf."
+    },
+
+    "NL": {
+        "Description": "An educational AR project for the Hololens 2, this was made during my internship at <a href=\"https://www.xr-lab.nl\" class=\"link\" target=\"_blank\"> XR-Lab</a>!<br>We were commissioned to translate GPal's existing app/webapp into an AR environment.<br>We have this for GPal's customer, the Amsterdam Ambulance Service.<br><br>We took the idea from their instruction videos and changed the interaction to digital buttons that hang around the incubator.<br>You can also control everything via voice commands so that you can use the application hands-free.",
+        "Interactable": "This interactable gives the user the possibility to start, pause and stop a video by touch.<br>During the start, the customer's logo is subtly displayed, which reinforces the brand identity.<br>With this intuitive and interactive element, users have complete control over their viewing experience.",
+        "Shader": "An interactive AR shader developed for the HoloLens 2.<br>This shader seamlessly integrates digital graphics into the real world and creates color changes when the user touches the virtual object.<br>A groundbreaking project that sparked my passion for augmented reality and innovation strengthens.",
+        "Git": "There is no git repository available as it is in a private mode due to the company."
+    }
+}

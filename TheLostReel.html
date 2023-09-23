@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bas de Reus: The Lost Reel</title>
+    <link rel="icon" type="image/x-icon" href="Tumbnails/XImg.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="NeonLights.css">
+</head>
+<body>
+    <header>
+        <h1 class="gameTitle"><a href="https://www.bas-de-reus.nl" class="link">Portfolio</a>: The Lost Reel</h1>
+        <h1 class="link" style="margin-left: 150px;"><a href="About-Me">About me</a></h1>
+        <h1 class="link" style="margin-left: 150px;"><a href="All-Projects">All projects</a></h1>
+        <button id="language-button">NL</button>
+    </header>
+
+    <div class="description">
+        <h2 class="kopje">Description</h2>
+        <p class="locale-target" id="Description">The lost reel is a 3D horror game, where you are being hunted by an un-human like creature.<br>Even though you are being hunted, you try to find and collect the lost film reel.<br><br>This was made for the "Do you WANNA Jam?! 2023" game jam.<br>With the theme "FREEZE".<br>There are 80 submisson in this jam.</p>
+        <a href="https://github.com/Team-Swamp/HorrorGame-WannaJam2023" class="link" target="_blank">Git repository</a>
+        <a href="https://github.com/Team-Swamp/HorrorGame-WannaJam2023/releases" class="link" target="_blank">Play-able game</a>
+        <a href="https://baz-geluk9.itch.io/the-lost-reel" class="link" target="_blank">itch.io</a>
+
+        <div class="warp center">
+            <div>
+                <!-- <h3 class="kopje">Jam version:</h3> -->
+                <video width="640" height="360" controls style="margin: 15px; margin-top: 50px;" autoplay loop muted class="code-gif">
+                    <source src="Media/TheLostReel/The_Lost_Reel.mp4" type="video/mp4">
+            </div>
+            <!-- <div>
+                <h3 class="kopje">Final version:</h3>
+                <video width="640" height="360" controls style="margin: 15px;" autoplay loop muted class="code-gif">
+                    <source src="Media/" type="video/mp4">
+            </div> -->
+        </div>
+
+        <div class="center"><img src="Media/TheLostReel/Results.jpg" alt="Score" style="width:40%;" class="code-gif"></div>
+        
+        <div>
+            <h1 class="kopje">Team:</h1>
+            <p style="margin: 0;">Project lead & game developer: Bas de Reus</p>
+            Game developer: <a href="https://www.tatumdevries.dev" target="_blank" class="link">Tatum de Vries</a><br>
+            Game developer: <a href="https://sites.google.com/view/domainofrickdohmen/projects" target="_blank" class="link">Rick Dohmen</a><br>
+            Game artist: <a href="https://www.artstation.com/smokey1987" target="_blank" class="link">Dylan Vermeulen</a><br>
+            Musician: <a href="https://www.mikeyclarke.info" target="_blank" class="link">Mikey Clarke</a><br>
+            Musician: <a href="https://www.youtube.com/@zaycreed" target="_blank" class="link">Ruud de Vries</a><br>
+        </div>
+    </div>
+
+    <hr class="line">
+    <h2 class="center kopje">Monster AI:</h2>
+    <a href="Platypus#StateMachine" class="link center"><p class="locale-target" id="Platypus">Voor deze monster AI heb ik gebruik gemaakt van mijn Platypus statemachine.</p></a>
+    <p class="center locale-target" id="AI">Er zijn vershillende states zoals, idle, wandering, seeking, chasing en killing.<br>Dit was zo gedaan om het een eng monster te creëren die je moet ontwijken.</p>
+    <div>
+        <div class="center"><img src="Media/TheLostReel/MonsterStateMachine.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+        <div class="center">
+           <div class="warp">
+                <div class="center"><img src="Media/TheLostReel/Idle.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+                <div class="center"><img src="Media/TheLostReel/Wandering.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+            </div>
+        </div>
+        <div class="center">
+            <div class="warp">
+                <div class="center"><img src="Media/TheLostReel/Seeking.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+                <div class="center"><img src="Media/TheLostReel/Chasing.jpg" alt="CodeSnippet" class="center code-gif"></div><br>
+            </div>
+        </div>
+        <div class="center"><img src="Media/TheLostReel/Killing.jpg" alt="CodeSnippet" class="center code-gif"></div>
+    </div>
+
+    <hr class="line">
+    <h2 class="center kopje">Monster spawner:</h2>
+    <p class="center locale-target" id="Spawner">Als speler wil je niet gelijk dood kunnen gaan, daarom spawned het monster later in dan de speler.<br>Zo heeft de speler wat tijd om de omgeving te ontdekken.</p>
+    <div class="center"><img src="Media/TheLostReel/MonsterSpawner.jpg" alt="CodeSnippet" class="center code-gif"></div>
+
+    <!-- <hr class="line">
+    <h2 class="center kopje">Project lead roll:</h2>
+    <p class="center">Beetje veel code reviews</p>
+
+    <hr class="line">
+    <h2 class="center kopje">Post mortem:</h2>
+    <p class="center">Was goeie game jam, leuk team. Goed product is er uit gekomen. Zal het wel nog een keer willen doen.</p>
+    <p class="center">Lijst aan dingen die ik graag wil veranderen of veranderd wil zien:<br>
+        * Random spawn points voor monster<br>
+        * Random spawn points voor pick-up (film reel)<br>
+        * Misschien dat je meerdere film tapes moet pakken<br>
+        * Een intreface of abstract class voor volume & mouse sensitiviest silder<br>
+        * Iets buiten bij de ingang (is nu gewoon solid color skybox)<br>
+        * Alle missing sounds inplemteren<br>
+        * Volledig de readme updaten met al onze script bij namen, images/gif bij alle assets van Dylan en Mikey (en iets verzinnen voor de music)<br>
+        * MenuController.cs S.R.P.<br>
+        * Kijken of we misschien nog een werkende webbuild maken (aka, alles textures lower res maken)<br>
+        * Kijken of de animations tranities voor de monster nog gefixed kunnen worden<br>
+        * De turns die monster maak wanneer die loopt fixen om niet door muren te gaan<br>
+        * Deze naam "IPickupCollectable.cs" moet eigelijk anders<br>
+        * Deze script zijn naam "Pickup.cs" klopt met wat het doet<br>
+        * Een folder maken voor de gameloop scripts (kan pas na bullet point 8)<br>
+        * Wanneer de monster je heb gevonden, het ook naar de speler laten draaien<br>
+        * Monster speler gevonden hebben niet door muren laten gaan<br>
+        * Naam "EndAnimationScript.cs" kan beter<br>
+        * Kijken of de Languages op de git repo kan veranderd worden naar 100% C#<br>
+        * De start button loading speed optimazen of een laad balk ergens neerzetten</p> -->
+
+    <div style="margin-bottom: 40px;"><!--footerXscrollFix--></div>
+
+    <footer>
+        <h1 class="gameTitle">Gameplay Programmer: Bas de Reus</h1>
+    </footer>
+
+    <!-- Localization -->
+    <script>const filePath = 'Localization/TheLostReel.json';</script>
+    <script src="Localization/localization.js"></script>
+</body>
