@@ -16,10 +16,21 @@ header {
     padding-bottom: 1px;
     padding-left: 5px;
 
+    /* Sticky at top */
+    z-index: 100;
+    position: fixed;
+    top: 0;
+
+    /* text */
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
+}
+
+body{
+    /* sticky header */
+    padding-top: 36px;
 }
 
 @media screen and (max-width: 500px) {
@@ -48,15 +59,12 @@ footer {
     right: 0;
     padding-top: 1px;
     padding-right: 5px;
+    font-size: 12px;
+    z-index: 10;
 }
 
 h1 {
     margin: 0;
-}
-
-footer{
-    font-size: 12px;
-    z-index: 10;
 }
 
 ul {
@@ -103,7 +111,6 @@ img:hover{
 .description {
     text-align: center;
     margin-top: 20px;
-    margin-left: 10px;
 }
 
 .center{
