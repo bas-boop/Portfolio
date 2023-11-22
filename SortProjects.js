@@ -1,31 +1,17 @@
 const projectViews = Array.from(document.getElementsByClassName("view"));
-var currentProjectId = 'filter1';
+const defaultViewId = "new";
 
-function toggleProjectDiv(divId)
-{
-    var projectDiv = document.getElementById(divId);
-    var childContainerDiv = projectDiv.querySelector(".project-container");
-
-    // Hide the currently visible project
-    if (currentProjectId !== null) {
-        var currentProjectDiv = document.getElementById(currentProjectId);
-
-        currentProjectDiv.style.display = "none";
-        currentChildContainerDiv.style.display = "none";
-    }
-
-    // Show the selected project
-    if (projectDiv.style.display === "none") {
-        projectDiv.style.display = "block";
-        currentProjectId = divId;
-    } else {
-        projectDiv.style.display = "none";
-        currentProjectId = null;
-    }
-}
+toggleView(getIdFromHash() ?? defaultViewId);
 
 function toggleView(id) {
+    history.replaceState(null, null, `#${id}`);
     projectViews.forEach(view => {
         view.id == id ? view.classList.add('shown') : view.classList.remove('shown');
     });
+}
+
+function getIdFromHash() {
+    const hash = document.location.hash.substring(1);
+
+    return document.getElementById(hash) ? hash : null;
 }

@@ -26,16 +26,16 @@
 
     
     <div style="margin: 20px;">
-        <button class="toggle-button locale-target" id="button1" onclick="toggleView('filter1')">New</button>
-        <button class="toggle-button locale-target" id="button2" onclick="toggleView('filter2')">Old</button>
-        <button class="toggle-button locale-target" id="button3" onclick="toggleView('filter3')">Year</button>
-        <button class="toggle-button locale-target" id="button4" style="width: 120px;" onclick="toggleView('filter4')">My projects</button>
-        <button class="toggle-button locale-target" id="button5" onclick="toggleView('filter5')">Work</button>
-        <button class="toggle-button" onclick="toggleView('filter6')">School</button>
-        <button class="toggle-button" onclick="toggleView('filter7')">Play-able</button>
+        <button class="toggle-button locale-target" id="button1" onclick="toggleView('new')">New</button>
+        <button class="toggle-button locale-target" id="button2" onclick="toggleView('old')">Old</button>
+        <button class="toggle-button locale-target" id="button3" onclick="toggleView('years')">Year</button>
+        <button class="toggle-button locale-target" id="button4" style="width: 120px;" onclick="toggleView('personal')">My projects</button>
+        <button class="toggle-button locale-target" id="button5" onclick="toggleView('work')">Work</button>
+        <button class="toggle-button" onclick="toggleView('school')">School</button>
+        <button class="toggle-button" onclick="toggleView('playables')">Play-able</button>
     </div>
 
-    <div id="filter1" class="view shown">
+    <div id="new" class="view shown">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="New">Gesorteerd op het nieuwste:</h2>
             <div class="projects">
@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div id="filter2" class="view">
+    <div id="old" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Old">Gesorteerd op het oudste:</h2>
             <div class="projects">
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div id="filter3" class="view">
+    <div id="years" class="view">
         <div class="project-container">
             <div id="Year" class="Filter">
                 <h2 style="margin-left: 10px;" class="kopje">2023:</h2>
@@ -132,7 +132,7 @@
         </div>
     </div>
 
-    <div id="filter4" class="view">
+    <div id="personal" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="MyProjects">Mijn projecten:</h2>
             <div class="projects">
@@ -149,7 +149,7 @@
         </div>
     </div>
     
-    <div id="filter5" class="view">
+    <div id="work" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="locale-target kopje Filter" id="Work">Werk:</h2>
             <div class="projects">
@@ -160,7 +160,7 @@
         </div>
     </div>
     
-    <div id="filter6" class="view">
+    <div id="school" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="kopje Filter" id="School">School:</h2>
             <div class="projects">
@@ -175,7 +175,7 @@
         </div>
     </div>
 
-    <div id="filter7" class="view">
+    <div id="playables" class="view">
         <div class="project-container">
             <h2 style="margin-left: 10px;" class="kopje Filter" id="Play-able">Play-able:</h2>
             <div class="projects">
